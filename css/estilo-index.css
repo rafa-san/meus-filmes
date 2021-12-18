@@ -1,0 +1,156 @@
+/* Estilo geral
+============ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+/* Estilo do navbar
+================ */
+header {
+  align-items: center;
+  background-color: #333;
+  color: #f2f2f2;
+  display: flex;
+  font-size: 17px;
+  height: 44px;
+  letter-spacing: 1px;
+  margin: auto;
+  padding-left: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin-left: 35px;
+  text-align: left;
+  width: 30%;
+}
+
+nav {
+  margin-right: 10px;
+  width: 70%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0 22px 0 0;
+}
+
+li a {
+  color: #f1f1f1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding: 11.5px 12px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+
+.ativo {
+  background-color: #ff7f50;
+}
+
+.ativo:hover{
+  background-color: #ff7f50;
+}
+
+/* Estilo da Tabela 
+================ */
+h3 {
+  color: #394e66;
+  line-height: 25px;
+  margin: auto;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  width: 95%;
+}
+
+table {
+  border: 1px solid #282A35;
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 95%;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #282A35;
+  padding:  10px;
+}
+
+th {
+  background-color: #ff7f50;
+  color: #f1f1f1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+tr {
+  text-align: center;
+}
+
+tr:nth-child(even){
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+/* Estilo da Seta 
+============== */
+.topo {
+  background-color: rgba(0,0,0,0.4);
+  border: none;
+  border-radius: 100%;
+  bottom: 27px;
+  box-shadow: 0 7px #999;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 24px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 15px;
+  width: 48px;
+}
+
+.topo:hover {
+  background-color: rgba(255,127,80,0.8);
+}
+
+.topo:active {
+  background-color: rgba(255,127,80,0.8);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Estilo do footer 
+================ */
+footer {
+  background-color: #282A35;
+  color: #f1f1f1;
+  font-size: 17px;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}

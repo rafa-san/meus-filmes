@@ -1,0 +1,146 @@
+/* Estilo geral
+============ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+}
+
+/* Estilo do navbar
+================ */
+header {
+  align-items: center;
+  background-color: #f2f2f2;
+  border-bottom: 2px solid #e6e6e6;
+  display: flex;
+  font-size: 17px;
+  height: 44px;
+  letter-spacing: 1px;
+  margin: auto;
+  overflow: hidden;
+  padding-left: 5px;
+  position: fixed; /* Para fixar a barra de navegação */
+  text-align: left;
+  top: 0; /* Deixar a barra de navegação no topo da página */
+  width: 100%;
+}
+
+h2 {
+  color: #2f4eda;
+  font-family: Georgia, serif;
+  line-height: 1.5;
+  margin-left: 35px;
+  text-align: left;
+  width: 30%;
+}
+
+nav {
+  margin-right: 10px;
+  width: 70%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0 22px 0 0;
+}
+
+li a {
+  color: #394e66;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.ativo {
+  border-bottom: 3px solid #2f4eda;
+  color: #2f4eda;
+}
+
+.ativo:hover {
+  border-bottom: 3px solid #2f4eda;
+  color:  #2f4eda;
+}
+
+/* Estilo da galeria de filmes 
+=========================== */
+section {
+  color: #394E66;
+  line-height: 25px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 0 10px 0;
+  text-align: center;
+}
+
+.container-galeria {
+  color: #4e657f;
+  font-weight: 700;
+  margin: auto;
+  padding: 30px 0 10px 0;
+  width: 95%;
+}
+
+.galeria {
+  background-color: #f2f2f2;
+  /*border: 2px solid blue;*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: auto;
+  max-width: 95%;
+}
+
+.galeria > div {
+  background-color: #ffffff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px 0 #33333333;
+  display: flex;
+  flex-direction: column;
+  height: 130px;
+  justify-content: space-around;
+  margin: 5px;
+  text-align: center;
+  vertical-align: middle;
+  width: 203px;
+}
+
+.galeria > div:hover {
+  border: 1px solid #2f4eda;;
+  box-shadow: 0 4px 6px 0 ;
+}
+
+.galeria > div p:first-child {
+  color: #394E66;
+  font-weight: bold;
+}
+
+/* Estilo do footer 
+================ */
+footer {
+  background-color: #f2f2f2;
+  border-top: 2px solid #e6e6e6;
+  color: #394E66;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
