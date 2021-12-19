@@ -49,14 +49,14 @@ ul {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
-  margin: 0 22px 0 0;
+  margin: 0 16px 0 0;
 }
 
 li a {
   color: #394e66;
   font-weight: 700;
   letter-spacing: 0.5px;
-  padding: 0 10px;
+  margin: 0 8px;
   text-decoration: none;
 }
 
@@ -82,11 +82,11 @@ section {
   line-height: 25px;
   margin: auto;
   margin-top: 50px;
-  padding: 20px 0 10px 0;
+  padding: 20px 0 8px 0;
   text-align: center;
 }
 
-.container-galeria {
+.inicio-galeria {
   color: #4e657f;
   font-weight: 700;
   margin: auto;
@@ -96,12 +96,11 @@ section {
 
 .galeria {
   background-color: #f2f2f2;
-  /*border: 2px solid blue;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   margin: auto;
-  max-width: 95%;
+  width: 95%;
 }
 
 .galeria > div {
@@ -113,10 +112,10 @@ section {
   flex-direction: column;
   height: 130px;
   justify-content: space-around;
-  margin: 5px;
+  margin: 1%;
   text-align: center;
   vertical-align: middle;
-  width: 203px;
+  width: 23%;
 }
 
 .galeria > div:hover {
@@ -143,4 +142,40 @@ footer {
   padding: 20px;
   text-align: center;
   width: 100%;
+}
+
+/* Design responsivo 
+================= */
+@media (max-width: 900px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: center;
+    width: 300px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+  }
+
+  section {
+    margin-top: 110px;
+  }
+
+  .inicio-galeria {
+    text-align: center;
+  }
+
+  .galeria > div {
+    flex-grow: 1;
+    width:100%;
+  }
 }
