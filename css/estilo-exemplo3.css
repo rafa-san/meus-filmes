@@ -1,0 +1,156 @@
+/* Estilo geral
+============ */
+* {
+  box-sizing: border-box;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1a1a1a;
+  font-size: 16px;
+}
+
+/* Estilo do navbar
+================ */
+header {
+  align-items: center;
+  background-color: #000000;
+  display: flex;
+  font-size: 17px;
+  height: 40px;
+  letter-spacing: 1px;
+  margin: auto;
+  position: fixed;
+  text-align: left;
+  top: 0;
+  width: 100%;
+}
+
+h2 {
+  color: rgba(255, 0, 51, 1);
+  font-family: Montserrat, sans-serif;
+  margin-left: 32px;
+  text-align: left;
+  width: 50%;
+}
+
+nav {
+  margin-right: 36px;
+  width: 50%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+li a {
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+li a:hover {
+  color: rgba(255, 0, 51, 1);
+}
+
+.ativo {
+  color: rgba(255, 0, 51, 1);
+}
+
+/* Estilo da galeria de filmes
+=========================== */
+.inicio-galeria {
+  background-color: #1a1a1a;
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px 0 20px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.galeria {
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding: 5px 5px 15px 0;
+  width: 100%;
+}
+
+.galeria > div {
+  background-color: #333333;
+  border-radius: 9px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 1.6;
+  margin: 0.5%;
+  text-align: center;
+  width: 201px;
+}
+
+.galeria > div:hover {
+  border: 1px solid #ffffff;
+  box-shadow: 0 4px 6px 0 #ffffff;
+}
+
+.galeria p {
+  background-color: #333333;
+  border-radius: 9px;
+}
+
+/* Estilo das imagens
+================== */
+img {
+  border-radius: 9px;
+  height: auto;
+  max-width: 100%;
+}
+
+/* Estilo do footer 
+================ */
+footer {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Montserrat, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Responsividade 
+============== */
+@media (max-width: 800px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  ul {
+    flex-direction: column;
+    line-height: 2;
+    text-align: center;
+    width: 100%;
+  }
+}
