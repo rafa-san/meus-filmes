@@ -153,4 +153,8 @@ footer {
     text-align: center;
     width: 100%;
   }
+
+  .inicio-galeria {
+    margin-top: 150px;
+  }
 }
