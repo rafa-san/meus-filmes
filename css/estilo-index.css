@@ -13,31 +13,26 @@ body {
 /* Estilo do navbar
 ================ */
 header {
-  align-items: center;
   background-color: #333;
   color: #f2f2f2;
   display: flex;
   font-size: 17px;
   height: 44px;
   letter-spacing: 1px;
-  margin: auto;
   padding-left: 5px;
-  text-align: left;
   width: 100%;
 }
 
 h2 {
   font-family: Georgia, serif;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 44px;
   margin-left: 35px;
-  text-align: left;
-  width: 30%;
+  width: 100%;
 }
 
 nav {
-  margin-right: 10px;
-  width: 70%;
+  width: 100%;
 }
 
 ul {
@@ -157,7 +152,16 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 470px) {
+@media (max-width: 530px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+
   .tab-responsiva {
     font-size: small;
   }
@@ -172,7 +176,7 @@ footer {
   }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 882px) {
   header {
     flex-direction: column;
     height: auto;
@@ -190,10 +194,16 @@ footer {
   }
 
   ul {
-    display: flex;
-    flex-direction: column;
+    justify-content: center;
     line-height: 2;
-    text-align: center;
+    margin: 0;
+    padding: 0;
     width: auto;
+  }
+
+  li a {
+    margin: auto;
+    text-align: center;
+    width: 160px;
   }
 }

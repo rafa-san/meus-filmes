@@ -14,41 +14,34 @@ body {
 /* Estilo do navbar
 ================ */
 header {
-  align-items: center;
   background-color: #f2f2f2;
   border-bottom: 2px solid #e6e6e6;
   display: flex;
   font-size: 17px;
   height: 44px;
   letter-spacing: 1px;
-  margin: auto;
-  overflow: hidden;
   padding-left: 5px;
-  position: fixed; /* Para fixar a barra de navegação */
-  text-align: left;
-  top: 0; /* Deixar a barra de navegação no topo da página */
   width: 100%;
 }
 
 h2 {
   color: #2f4eda;
   font-family: Cinzel, serif;
-  line-height: 1.5;
+  line-height: 44px;
   margin-left: 35px;
-  text-align: left;
-  width: 30%;
+  width: 100%;
 }
 
 nav {
-  margin-right: 10px;
-  width: 70%;
+  width: 100%;
 }
 
 ul {
   display: flex;
   justify-content: flex-end;
+  line-height: 44px;
   list-style-type: none;
-  margin: 0 16px 0 0;
+  margin: 0 28px 0 0;
 }
 
 li a {
@@ -80,7 +73,7 @@ h3 {
   color: #394E66;
   line-height: 25px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 20px;
   padding: 20px 0 8px 0;
   text-align: center;
 }
@@ -89,7 +82,7 @@ h3 {
   color: #4e657f;
   font-weight: 700;
   margin: auto;
-  padding: 30px 0 10px 0;
+  padding: 24px 0 10px 0;
   text-align: left;
   width: 95%;
 }
@@ -147,7 +140,18 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 900px) {
+@media (max-width: 540px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    width: auto;
+  }
+}
+
+@media (max-width: 850px) {
   header {
     flex-direction: column;
     height: auto;
@@ -160,14 +164,10 @@ footer {
   }
 
   ul {
-    flex-direction: column;
+    justify-content: center;
     line-height: 2;
     text-align: center;
     width: 100%;
-  }
-
-  h3 {
-    margin-top: 110px;
   }
 
   .inicio-galeria {
