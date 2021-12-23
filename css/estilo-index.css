@@ -110,11 +110,11 @@ tr:hover {
 /* Estilo da Seta 
 ============== */
 .topo {
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgba(255,127,80,0.5);
   border: none;
   border-radius: 100%;
   bottom: 27px;
-  box-shadow: 0 7px #999;
+  box-shadow: 0 5px #999;
   color: #ffffff;
   cursor: pointer;
   font-size: 24px;
@@ -131,8 +131,8 @@ tr:hover {
 }
 
 .topo:active {
-  background-color: rgba(255,127,80,0.8);
-  box-shadow: 0 5px #666;
+  background-color: rgba(255,127,80,1);
+  box-shadow: 0 4px #666;
   transform: translateY(4px);
 }
 
