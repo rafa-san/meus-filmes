@@ -76,29 +76,27 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  padding: 5px 5px 15px 0;
+  padding: 5px 5px 17px 0;
   width: 100%;
 }
 
 section > div:hover {
   border: 1px solid #ffffff;
   border-radius: 9px;
-  box-shadow: 0 4px 6px 0 #ffffff;
+  box-shadow: 0 2px 3px 0 #ffffff;
   cursor: pointer;
 }
 
 /* Estilo do hover overlay
 ======================= */
 .galeria {
-  margin: 0.5%;
+  margin: 0 12px 12px 0;
   position: relative;
 }
 
 .imagem {
-  display: block;
   height: auto;
-  opacity: 1;
-  transition: .5s ease;
+  width: 100%;
 }
 
 .galeria:hover .imagem {
@@ -110,9 +108,8 @@ section > div:hover {
   border-radius: 9px;
   color: white;
   font-size: 26px;
-  height: 301px;
+  height: 100%;
   opacity: 0;
-  overflow: hidden;
   position: absolute;
   text-align: center;
   top: 0;
@@ -171,9 +168,5 @@ footer {
     line-height: 2;
     text-align: center;
     width: 100%;
-  }
-
-  .inicio-galeria {
-    margin-top: 150px;
   }
 }
