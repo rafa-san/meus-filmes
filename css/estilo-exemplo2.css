@@ -18,16 +18,15 @@ header {
   border-bottom: 2px solid #e6e6e6;
   display: flex;
   font-size: 17px;
-  height: 44px;
+  height: 40px;
   letter-spacing: 1px;
-  padding-left: 5px;
   width: 100%;
 }
 
 h2 {
   color: #2f4eda;
   font-family: Cinzel, serif;
-  line-height: 44px;
+  line-height: 40px;
   margin-left: 35px;
   width: 100%;
 }
@@ -39,9 +38,9 @@ nav {
 ul {
   display: flex;
   justify-content: flex-end;
-  line-height: 44px;
+  line-height: 40px;
   list-style-type: none;
-  margin: 0 28px 0 0;
+  margin-right: 35px;
 }
 
 li a {
@@ -78,47 +77,53 @@ h3 {
   text-align: center;
 }
 
-.inicio-galeria {
-  color: #4e657f;
-  font-weight: 700;
+#total-filmes {
   margin: auto;
-  padding: 24px 0 10px 0;
-  text-align: left;
+  text-align: center;
   width: 95%;
 }
 
-.galeria {
+.ordem {
+  margin: 0 auto 20px;
+  text-align: center;
+  width: 95%;
+}
+
+.ordem button {
+  height: 20px;
+  width: 200px;
+}
+
+.container-lista > div {
   background-color: #f2f2f2;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin: auto;
+  justify-content: center;
+  margin: 0 auto;
   width: 95%;
 }
 
-.galeria > div {
+#items-lista p {
+  align-items: center;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 #33333333;
   display: flex;
   flex-direction: column;
-  height: 130px;
-  justify-content: space-around;
-  margin: 1%;
+  height: 200px;
+  justify-content: center;
+  line-height: 1.5;
+  margin: 0.5%;
+  padding-left: 5px;
   text-align: center;
   vertical-align: middle;
-  width: 23%;
+  width: 19%;
 }
 
-.galeria > div:hover {
+#items-lista > p:hover {
   border: 1px solid #2f4eda;;
   box-shadow: 0 4px 6px 0 ;
-}
-
-.galeria > div p:first-child {
-  color: #394E66;
-  font-weight: bold;
 }
 
 /* Estilo do footer 
@@ -176,6 +181,6 @@ footer {
 
   .galeria > div {
     flex-grow: 1;
-    width:100%;
+    width: 100%;
   }
 }
