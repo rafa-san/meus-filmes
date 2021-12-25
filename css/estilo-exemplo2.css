@@ -103,7 +103,7 @@ h3 {
   width: 95%;
 }
 
-#items-lista p {
+#itens-lista p {
   align-items: center;
   background-color: #ffffff;
   border: 1px solid transparent;
@@ -121,7 +121,7 @@ h3 {
   width: 19%;
 }
 
-#items-lista > p:hover {
+#itens-lista > p:hover {
   border: 1px solid #2f4eda;;
   box-shadow: 0 4px 6px 0 ;
 }
@@ -175,12 +175,7 @@ footer {
     width: 100%;
   }
 
-  .inicio-galeria {
-    text-align: center;
-  }
-
-  .galeria > div {
-    flex-grow: 1;
-    width: 100%;
+  #itens-lista p {
+    width: 95%;
   }
 }

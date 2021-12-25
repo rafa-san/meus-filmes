@@ -227,7 +227,7 @@ function cron() {
 
 function exibirFilmes() {
   let texto = '';
-  document.getElementById('items-lista').innerHTML = 
+  document.getElementById('itens-lista').innerHTML = 
   texto += `<p> <strong>${filmes[0].filme}</strong> (${filmes[0].ano}) <br> ${filmes[0].diretor} </p>` +
   `<p> <strong>${filmes[1].filme}</strong> (${filmes[1].ano}) <br> ${filmes[1].diretor} </p>` +
   `<p> <strong>${filmes[2].filme}</strong> (${filmes[2].ano}) <br> ${filmes[2].diretor} </p>` +
