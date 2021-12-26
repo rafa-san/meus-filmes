@@ -68,6 +68,22 @@ li a:hover {
 
 /* Estilo da galeria de filmes 
 =========================== */
+.container-dados {
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  width: 95%;
+}
+
+.total-encontrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 5px;
+  padding: 0;
+  width: 28%;
+}
+
 h3 {
   color: #394E66;
   line-height: 25px;
@@ -80,18 +96,33 @@ h3 {
 #total-filmes {
   margin: auto;
   text-align: center;
-  width: 95%;
+  width: 20%;
 }
 
 .ordem {
-  margin: 0 auto 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
   text-align: center;
   width: 95%;
 }
 
 .ordem button {
-  height: 20px;
+  background-color: #ffffff;
+  border: 1px solid #2f4eda;
+  border-radius: 9px;
+  color: #394E66;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 20px;
+  padding: 10px;
   width: 200px;
+}
+
+button:hover {
+  background-color: #2f4eda;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 .container-lista > div {
@@ -111,7 +142,7 @@ h3 {
   box-shadow: 0 4px 6px 0 #33333333;
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 180px;
   justify-content: center;
   line-height: 1.5;
   margin: 0.5%;
@@ -122,8 +153,37 @@ h3 {
 }
 
 #itens-lista > p:hover {
-  border: 1px solid #2f4eda;;
-  box-shadow: 0 4px 6px 0 ;
+  border: 1px solid #2f4eda;
+  box-shadow: 0 4px 6px 0;
+}
+
+/* Estilo da Seta 
+============== */
+.topo {
+  background-color: rgba(47, 78, 218, 0.5);
+  border: none;
+  border-radius: 100%;
+  bottom: 27px;
+  box-shadow: 0 5px #999;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 24px;
+  height: 48px;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  right: 15px;
+  width: 48px;
+}
+
+.topo:hover {
+  background-color: rgba(47, 78, 218, 0.8);
+}
+
+.topo:active {
+  background-color: rgba(47, 78, 218, 1);
+  box-shadow: 0 4px #666;
+  transform: translateY(4px);
 }
 
 /* Estilo do footer 
@@ -145,18 +205,53 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 540px) {
-  ul {
-    display: flex;
+@media (max-width: 579px) {
+  header {
     flex-direction: column;
+    height: auto;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: center;
+    width: auto;
+  }
+
+  ul {
+    flex-direction: column;
+    justify-content: center;
     line-height: 2;
     margin: 0;
     padding: 0;
-    width: auto;
+    text-align: center;
+    width: 100%;
+  }
+
+  .container-dados {
+    flex-direction: column;
+    margin: auto;
+    width: 95%
+  }
+
+  .total-encontrado {
+    margin: auto;
+  }
+
+  .ordem {
+    flex-direction: column;
+  }
+
+  .ordem button {
+    margin: 8px auto;
+  }
+
+  #itens-lista p {
+    height: 140px;
+    width: 100%;
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 890px) and (min-width: 580px) {
   header {
     flex-direction: column;
     height: auto;
@@ -175,7 +270,25 @@ footer {
     width: 100%;
   }
 
+  .container-dados {
+    flex-direction: column;
+    margin: auto;
+    width: 95%
+  }
+
+  .total-encontrado {
+    margin: auto;
+  }
+
+  .ordem {
+    flex-direction: column;
+  }
+
+  .ordem button {
+    margin: 8px auto;
+  }
+
   #itens-lista p {
-    width: 95%;
+    width: 48%;
   }
 }
