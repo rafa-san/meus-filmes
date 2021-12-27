@@ -69,7 +69,7 @@ aside {
   margin-left: 15px;
   position: fixed;
   right: 14px;
-  top: 20%;
+  top: 70px;
 }
 
 .dropdown {
@@ -210,8 +210,8 @@ footer {
   width: 100%;
 }
 
-/* Responsividade 
-============== */
+/* Design responsivo 
+================= */
 @media (max-width: 400px) {
   header {
     flex-direction: column;
@@ -232,32 +232,23 @@ footer {
   }
 
   aside {
-    right: 5px;
-    top: 25%;
-  }
-
-  .botao-dropdown {
-    padding: 2px;
-    width: 50px;
-  }
-
-  .conteudo-dropdown {
-    font-size: small;
-    width: 50px;
+    top: 148px;
   }
 
   .conteudo-dropdown a {
-    font-size: small;
-    padding: 2px;
+    font-size: 10px;
   }
 
-  .inicio-galeria {
-    margin: auto;
-    width: 83%
+  .inicio-galeria{
+    margin-left: 5px;
+    text-align: left;
   }
 
   section {
-    padding: 5% 7%;
+    justify-content: flex-start;
+    margin-left: 5px;
+    padding: 0;
+    width: 70%;
   }
 }
 
@@ -274,14 +265,14 @@ footer {
   }
   
   ul {
-    flex-direction: column;
+    justify-content: center;
     line-height: 2;
     text-align: center;
     width: 100%;
   }
 
   aside {
-    top: 25%;
+    top: 85px;
   }
 
   section {
