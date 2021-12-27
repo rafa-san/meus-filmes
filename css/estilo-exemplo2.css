@@ -84,6 +84,12 @@ li a:hover {
   width: 28%;
 }
 
+#total-filmes, #total-diretores {
+  margin: auto;
+  text-align: center;
+  width: 20%;
+}
+
 h3 {
   color: #394E66;
   line-height: 25px;
@@ -91,12 +97,6 @@ h3 {
   margin-top: 20px;
   padding: 20px 0 8px 0;
   text-align: center;
-}
-
-#total-filmes {
-  margin: auto;
-  text-align: center;
-  width: 20%;
 }
 
 .ordem {

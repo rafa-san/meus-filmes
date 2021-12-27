@@ -4,18 +4,18 @@ const filmes = [
   {filme: 'Clube da Luta', ano: 1999, diretor: 'David Fincher'},
   {filme: '(500) Dias com Ela', ano: 2009, diretor: 'Marc Webb'},
   {filme: 'De Volta para o Futuro', ano: 1985, diretor: 'Robert Zemeckis'},
-  {filme: 'Vingadores: Guerra Infinita', ano: 2018, diretor: 'Anthony Russo, Joe Russo'}, // 2 diretores
+  {filme: 'Vingadores: Guerra Infinita', ano: 2018, diretor: 'Anthony Russo, Joe Russo'},
   {filme: 'Trovão Tropical', ano: 2008, diretor: 'Ben Stiller'},
   {filme: 'Eu, Tonya', ano: 2017, diretor: 'Craig Gillespie'},
   {filme: 'Gravidade', ano: 2013, diretor: 'Alfonso Cuarón'},
-  {filme: 'Shrek 2', ano: 2004, diretor: 'Andrew Adamson, Kelly Asbury, Conrad Vernon'}, // 3 diretores
+  {filme: 'Shrek 2', ano: 2004, diretor: 'Andrew Adamson, Kelly Asbury, Conrad Vernon'},
   {filme: 'Viagem à Lua', ano: 1902, diretor: 'Georges Méliès'},
   {filme: 'Adeus, Lenin!', ano: 2003, diretor: 'Wolfgang Becker'},
   {filme: 'Aconteceu Naquela Noite', ano: 1934, diretor: 'Frank Capra'},
   {filme: '300', ano: 2006, diretor: 'Zack Snyder'},
   {filme: 'Casablanca', ano: 1942, diretor: 'Michael Curtiz'},
   {filme: 'Viagem de Chihiro, A', ano: 2001, diretor: 'Hayao Miyazaki'},
-  {filme: 'Cantando na Chuva', ano: 1952, diretor: 'Stanley Donen, Gene Kelly'}, // 2 diretores
+  {filme: 'Cantando na Chuva', ano: 1952, diretor: 'Stanley Donen, Gene Kelly'},
   {filme: 'Capitão América: O Primeiro Vingador', ano: 2011, diretor: 'Joe Johnston'},
   {filme: 'Doce Vida, A', ano: 1960, diretor: 'Federico Fellini'},
   {filme: 'Trainspotting: Sem Limites', ano: 1996, diretor: 'Danny Boyle'},
@@ -38,38 +38,38 @@ const filmes = [
   {filme: 'Johnny & June', ano: 2005, diretor: 'James Mangold'},
   {filme: 'Amor à Flor da Pele', ano: 2000, diretor: 'Wong Kar-Wai'},
   {filme: 'Batman Begins', ano: 2005, diretor: 'Christopher Nolan'},
-  {filme: 'Matrix Revolution', ano: 2003, diretor: 'Lana Wachowski, Lilly Wachowski'}, // 2 diretores
+  {filme: 'Matrix Revolution', ano: 2003, diretor: 'Lana Wachowski, Lilly Wachowski'},
   {filme: 'Dia de Treinamento', ano: 2001, diretor: 'Antoine Fuqua'},
   {filme: 'Senhor dos Anéis: A Sociedade do Anel, O', ano: 2001, diretor: 'Peter Jackson'},
-  {filme: 'Efeito Borboleta', ano: 2004, diretor: 'Eric Bress, J. Mackye Gruber'}, // 2 diretores
+  {filme: 'Efeito Borboleta', ano: 2004, diretor: 'Eric Bress, J. Mackye Gruber'},
   {filme: 'Chamas da Vingança', ano: 2004, diretor: 'Tony Scott'},
   {filme: 'Senhor dos Anéis: As Duas Torres, O', ano: 2002, diretor: 'Peter Jackson'},
   {filme: 'De Volta para o Futuro III', ano: 1990, diretor: 'Robert Zemeckis'},
-  {filme: 'Spirit: O Corcel Indomável', ano: 2002, diretor: 'Lorna Cook, Kelly Asbury'}, // 2 diretores 
+  {filme: 'Spirit: O Corcel Indomável', ano: 2002, diretor: 'Lorna Cook, Kelly Asbury'}, 
   {filme: 'Quicksilver – O Prazer de Ganhar', ano: 1986, diretor: 'Tom Donnelly'},
-  {filme: 'Matrix Reloaded', ano: 2003, diretor: 'Lana Wachowski, Lilly Wachowski'}, // 2 diretores
+  {filme: 'Matrix Reloaded', ano: 2003, diretor: 'Lana Wachowski, Lilly Wachowski'},
   {filme: 'Sonho de Liberdade, Um', ano: 1984, diretor: 'Frank Darabont'},
   {filme: 'Brilho Eterno de uma Mente sem Lembranças', ano: 2004, diretor: 'Michel Gondry'},
   {filme: 'Edukators', ano: 2004, diretor: 'Hans Weingartner'},
   {filme: 'Supremacia Bourne, A', ano: 2004, diretor: 'Paul Greengrass'},
-  {filme: 'Shrek', ano: 2001, diretor: 'Andrew Adamson,Vicky Jenson'}, // 2 diretores
+  {filme: 'Shrek', ano: 2001, diretor: 'Andrew Adamson, Vicky Jenson'},
   {filme: 'Jardineiro Fiel, O', ano: 2005, diretor: 'Fernando Meirelles'},
-  {filme: 'Fargo', ano: 1996, diretor: 'Joel Coen, Ethan Coen'}, // 2 diretores
+  {filme: 'Fargo', ano: 1996, diretor: 'Joel Coen, Ethan Coen'},
   {filme: 'Labirinto do Fauno, O', ano: 2006, diretor: 'Guilhermo del Toro'},
   {filme: 'Assassinato de Jesse James pelo Covarde Robert Ford, O', ano: 2007, diretor: 'Andrew Dominik'},
-  {filme: 'Onde os Fracos Não Têm Vez', ano: 2007, diretor: 'Joel Coen, Ethan Coen'}, // 2 diretores
-  {filme: 'E aí, Meu Irmão, Cadê Você?', ano: 2000, diretor: 'Joel Coen, Ethan Coen'}, // 2 diretores
+  {filme: 'Onde os Fracos Não Têm Vez', ano: 2007, diretor: 'Joel Coen, Ethan Coen'},
+  {filme: 'E aí, Meu Irmão, Cadê Você?', ano: 2000, diretor: 'Joel Coen, Ethan Coen'},
   {filme: 'Homem de Ferro', ano: 2008, diretor: 'Jon Favreau'},
   {filme: 'Beleza Americana', ano: 1999, diretor: 'Sam Mendes'},
   {filme: 'Ilha do Medo', ano: 2009, diretor: 'Martin Scorsese'},
   {filme: 'Atração Perigosa', ano: 2010, diretor: 'Ben Affleck'},
   {filme: 'Origem, A', ano: 2010, diretor: 'Christopher Nolan'},
-  {filme: 'Intocáveis', ano: 2011, diretor: 'Olivier Nakache, Eric Toledano'}, // 2 diretores
+  {filme: 'Intocáveis', ano: 2011, diretor: 'Olivier Nakache, Eric Toledano'},
   {filme: 'Fabuloso Destino de Amélie Poulain, O', ano: 2001, diretor: 'Jean-Pierre Jeunet'},
   {filme: 'Ted', ano: 2012, diretor: 'Seth MacFarlane'},
   {filme: 'Homem de Ferro 3', ano: 2013, diretor: 'Shane Black'},
-  {filme: 'Toy Story 2', ano: 1999, diretor: 'John Lasseter, Lee Unkrich, Ash Brannon'}, // 3 diretores
-  {filme: 'Divertida Mente', ano: 2015, diretor: 'Pete Docter, Ronaldo Del Carmen'}, // 2 diretores
+  {filme: 'Toy Story 2', ano: 1999, diretor: 'John Lasseter, Lee Unkrich, Ash Brannon'},
+  {filme: 'Divertida Mente', ano: 2015, diretor: 'Pete Docter, Ronaldo Del Carmen'},
   {filme: '007 Contra Spectre', ano: 2015, diretor: 'Sam Mendes'},
   {filme: 'Rogue One: Uma História Star Wars', ano: 2016, diretor: 'Gareth Edwards'},
   {filme: 'John Wick: Um Novo Dia Para Matar', ano: 2017, diretor: 'Chad Stahelski'},
@@ -155,7 +155,7 @@ const filmes = [
   {filme: 'Gladiador', ano: 2000, diretor: 'Ridley Scott'},
   {filme: 'Rambo: Programado para Matar', ano: 1982, diretor: 'Ted Kotcheff'},
   {filme: 'Juno', ano: 2007, diretor: 'Jason Reitman'},
-  {filme: 'Monstros S.A.', ano: 2001, diretor: 'Peter Docter, David Silverman, Lee Unkrich'},
+  {filme: 'Monstros S.A.', ano: 2001, diretor: 'Pete Docter, David Silverman, Lee Unkrich'},
   {filme: 'Capitão América: Guerra Civil', ano: 2016, diretor: 'Anthony Russo, Joe Russo'},
   {filme: 'Último dos Moicanos, O', ano: 1992, diretor: 'Michael Mann'},
   {filme: 'Guardiões da Galáxia Vol. 2', ano: 2017, diretor: 'James Gunn'},
@@ -207,9 +207,9 @@ document.getElementById('total-filmes').innerHTML = filmes.length;
 exibirFilmes();
 
 function alfa() {
-  filmes.sort(function(a, b){
-    let x = a.filme.toLowerCase();
-    let y = b.filme.toLowerCase();
+  filmes.sort(function(a, b) {
+    let x = a.filme.toLowerCase().replace(/[àáâãäå]/,"a").replace(/[èéêë]/,"e").replace(/[ìíîï]/,"i").replace(/[òóôõö]/,"o").replace(/[ùúûü]/,"u").replace(/[ç]/,"c").replace(/[^a-z0-9]/gi,'');
+    let y = b.filme.toLowerCase().replace(/[àáâãäå]/,"a").replace(/[èéêë]/,"e").replace(/[ìíîï]/,"i").replace(/[òóôõö]/,"o").replace(/[ùúûü]/,"u").replace(/[ç]/,"c").replace(/[^a-z0-9]/gi,'');
     if (x < y) {return -1;}
     if (x > y) {return 1;}
     return 0;
@@ -224,6 +224,21 @@ function cron() {
   filmes.sort(function(a, b) {return a.ano - b.ano});
   exibirFilmes()
 };
+
+// Exibir por diretor:
+exibirFilmes();
+
+function dire() {
+  filmes.sort(function(a, b) {
+    let m = a.diretor.toLowerCase();
+    let n = b.diretor.toLowerCase();
+    if (m < n) {return -1;}
+    if (m > n) {return 1;}
+    return 0;
+  });
+  exibirFilmes();
+}
+
 
 function exibirFilmes() {
   let texto = '';
