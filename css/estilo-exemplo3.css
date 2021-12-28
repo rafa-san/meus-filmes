@@ -66,37 +66,15 @@ aside {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
   position: fixed;
-  right: 14px;
-  top: 70px;
-}
-
-.dropdown {
-  display: inline-block;
-  position: relative;
-}
-
-.botao-dropdown {
-  background-color: #333333;
-  border: none;
-  cursor: pointer;
-  color: rgb(255, 0, 51);
-  font-size: 30px;
-  padding: 8px;
-  text-align: center;
-  width: 78px;
-}
-
-.botao-dropdown:hover {
-  border: 1px solid #ffffff;
+  right: 15px;
+  top: 15px;
 }
 
 .conteudo-dropdown {
   background-color: #333333;
   cursor: pointer;
-  display: none;
-  position: absolute;
+  display: block;
   width: 78px;
 }
 
@@ -104,7 +82,7 @@ aside {
   color: rgb(217, 217, 217);
   display: block;
   font-size: 15px;
-  padding: 8px 2px;
+  padding: 10px 2px;
   text-align: center;
   text-decoration: none;
 }
@@ -115,9 +93,6 @@ aside {
   color: #ffffff;
 }
 
-.dropdown:hover .conteudo-dropdown {
-  display: block;
-}
 /* Estilo da galeria de filmes
 =========================== */
 .inicio-galeria {
@@ -212,7 +187,7 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 400px) {
+@media (max-width: 409px) {
   header {
     flex-direction: column;
     height: auto;
@@ -232,27 +207,25 @@ footer {
   }
 
   aside {
-    top: 148px;
-  }
-
-  .conteudo-dropdown a {
-    font-size: 10px;
+    top: 10px;
+    right: 10px;
   }
 
   .inicio-galeria{
-    margin-left: 5px;
+    padding-left: 50px;
     text-align: left;
   }
 
   section {
+    border: none;
     justify-content: flex-start;
-    margin-left: 5px;
+    margin-left: 14px;
     padding: 0;
     width: 70%;
   }
 }
 
-@media (max-width: 815px) and (min-width: 401px) {
+@media (max-width: 815px) and (min-width: 410px) {
   header {
     flex-direction: column;
     height: auto;
@@ -271,11 +244,8 @@ footer {
     width: 100%;
   }
 
-  aside {
-    top: 85px;
-  }
-
   section {
+    border: none;
     padding: 5% 7%;
   }
 }
