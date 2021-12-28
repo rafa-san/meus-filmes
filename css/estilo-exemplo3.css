@@ -74,7 +74,7 @@ aside {
 .conteudo-dropdown {
   background-color: #333333;
   cursor: pointer;
-  display: block;
+  display: none;
   width: 78px;
 }
 
