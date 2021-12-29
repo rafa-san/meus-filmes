@@ -67,22 +67,22 @@ aside {
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 15px;
-  top: 15px;
+  right: 1%;
+  top: 15%;
 }
 
 .conteudo-dropdown {
   background-color: #333333;
   cursor: pointer;
-  display: block;
-  width: 78px;
+  display: none;
+  width: 74px;
 }
 
 .conteudo-dropdown a {
   color: rgb(217, 217, 217);
   display: block;
   font-size: 15px;
-  padding: 10px 2px;
+  padding: 12px 1px;
   text-align: center;
   text-decoration: none;
 }
@@ -208,20 +208,14 @@ footer {
 
   aside {
     top: 10px;
-    right: 10px;
   }
 
-  .inicio-galeria{
-    padding-left: 50px;
-    text-align: left;
+  .conteudo-dropdown {
+    width: 42px;
   }
 
-  section {
-    border: none;
-    justify-content: flex-start;
-    margin-left: 14px;
-    padding: 0;
-    width: 70%;
+  .conteudo-dropdown a {
+    padding: 8px 0;
   }
 }
 
