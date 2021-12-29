@@ -200,14 +200,18 @@ footer {
   }
   
   ul {
-    flex-direction: column;
-    line-height: 2;
-    text-align: center;
+    justify-content: center;
+    margin: 0;
     width: 100%;
   }
 
+  li a {
+    letter-spacing: 0;
+    margin: 0 8px;
+    }
+
   aside {
-    top: 145px;
+    top: 93px;
   }
 
   .conteudo-dropdown {
@@ -215,7 +219,7 @@ footer {
   }
 
   .conteudo-dropdown a {
-    padding: 8px 0;
+    padding: 7px 0;
   }
 }
 
