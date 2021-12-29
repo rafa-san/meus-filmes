@@ -1,10 +1,10 @@
-var anos = document.querySelector('.conteudo-dropdown');
-
-document.body.onscroll = () => {
-
-  if (window.pageYOffset < 420) {
-      anos.style.display = "none";
+var scrollUp = window.pageYOffset;
+window.onscroll = function() {
+var scrollDown = window.pageYOffset;
+  if (scrollUp > scrollDown) {
+    document.querySelector(".conteudo-dropdown").style.display = "block";
   } else {
-      anos.style.display = "block";
+    document.querySelector(".conteudo-dropdown").style.display = "none";
   }
+  scrollUp = scrollDown;
 }

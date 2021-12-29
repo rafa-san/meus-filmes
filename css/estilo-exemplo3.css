@@ -187,7 +187,7 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 409px) {
+@media (max-width: 399px) {
   header {
     flex-direction: column;
     height: auto;
@@ -207,11 +207,11 @@ footer {
   }
 
   aside {
-    top: 10px;
+    top: 145px;
   }
 
   .conteudo-dropdown {
-    width: 42px;
+    width: 40px;
   }
 
   .conteudo-dropdown a {
@@ -219,7 +219,7 @@ footer {
   }
 }
 
-@media (max-width: 815px) and (min-width: 410px) {
+@media (max-width: 815px) and (min-width: 400px) {
   header {
     flex-direction: column;
     height: auto;
