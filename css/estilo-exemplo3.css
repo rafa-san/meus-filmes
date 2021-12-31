@@ -70,7 +70,7 @@ aside {
   flex-direction: column;
   position: fixed;
   right: 0;
-  top: 15%;
+  top: 90px;
 }
 
 .conteudo-dropdown {
@@ -207,7 +207,7 @@ footer {
   }
 
   aside {
-    top: 20%;
+    top: 120px;
   }
 
   .conteudo-dropdown {
@@ -239,7 +239,7 @@ footer {
   }
 
   aside {
-    top: 20%;
+    top: 120px;
   }
 
   .conteudo-dropdown {
