@@ -204,10 +204,18 @@ footer {
   li a {
     letter-spacing: 0;
     margin: 0 8px;
-    }
+  }
+
+  aside {
+    top: 20%;
+  }
 
   .conteudo-dropdown {
-    width: 14vw;
+    width: 3.2rem;
+  }
+
+  .conteudo-dropdown a {
+    padding: 12% 0;
   }
 }
 
@@ -230,7 +238,15 @@ footer {
     width: 100%;
   }
 
+  aside {
+    top: 20%;
+  }
+
   .conteudo-dropdown {
-    width: 14vw;
+    width: 3.2rem;
+  }
+
+  .conteudo-dropdown a {
+    padding: 18% 0;
   }
 }
