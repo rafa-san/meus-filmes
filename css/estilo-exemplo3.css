@@ -2,14 +2,14 @@
 ============ */
 * {
   box-sizing: border-box;
-  color: #ffffff;
-  font-family: Poppins, sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
   background-color: #1a1a1a;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
   font-size: 16px;
 }
 
@@ -29,6 +29,7 @@ h2 {
   font-family: Montserrat, sans-serif;
   line-height: 40px;
   margin-left: 32px;
+  text-transform: uppercase;
   width: 50%;
 }
 
@@ -45,6 +46,7 @@ ul {
 }
 
 li a {
+  color: #ffffff;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -67,7 +69,7 @@ aside {
   display: flex;
   flex-direction: column;
   position: fixed;
-  right: 1%;
+  right: 0;
   top: 15%;
 }
 
@@ -75,13 +77,13 @@ aside {
   background-color: #333333;
   cursor: pointer;
   display: none;
-  width: 74px;
+  width: 5rem;
 }
 
 .conteudo-dropdown a {
   color: rgb(217, 217, 217);
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   padding: 12px 1px;
   text-align: center;
   text-decoration: none;
@@ -89,8 +91,8 @@ aside {
 
 .conteudo-dropdown a:hover {
   background-color: #1a1a1a;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  border: 1px solid rgb(255, 0, 51);
+  color: rgb(255, 0, 51);
 }
 
 /* Estilo da galeria de filmes
@@ -98,14 +100,14 @@ aside {
 .inicio-galeria {
   background-color: #1a1a1a;
   font-size: 24px;
-  padding: 24px 0 10px 0;
+  margin: 0 auto;
+  padding: 18px 14px 10px 0;
   text-align: center;
-  width: 98%;
+  width: 100%;
 }
 
 section {
   background-color: #1a1a1a;
-  /*border-bottom: 1px solid #333333;*/
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -129,8 +131,9 @@ section > div:hover {
 }
 
 .imagem {
-  height: auto;
-  width: 100%;
+  border-radius: 9px;
+  height: 301px;
+  width: 201px;
 }
 
 .galeria:hover .imagem {
@@ -159,14 +162,6 @@ section > div:hover {
 
 .texto p:first-child {
   margin-top: 45%;
-}
-
-/* Estilo das imagens
-================== */
-img {
-  border-radius: 9px;
-  height: auto;
-  max-width: 100%;
 }
 
 /* Estilo do footer 
@@ -200,6 +195,7 @@ footer {
   }
   
   ul {
+    font-size: 5vw;
     justify-content: center;
     margin: 0;
     width: 100%;
@@ -210,16 +206,8 @@ footer {
     margin: 0 8px;
     }
 
-  aside {
-    top: 93px;
-  }
-
   .conteudo-dropdown {
-    width: 40px;
-  }
-
-  .conteudo-dropdown a {
-    padding: 7px 0;
+    width: 2.8rem;
   }
 }
 
@@ -242,8 +230,7 @@ footer {
     width: 100%;
   }
 
-  section {
-    border: none;
-    padding: 5% 7%;
+  .conteudo-dropdown {
+    width: 3rem;
   }
 }
