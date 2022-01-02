@@ -83,16 +83,16 @@ li a:hover {
   display: flex;
   flex-direction: column;
   margin: 0 5px;
+  padding: 10px 0;
   text-align: center;
   width: 30%;
 }
 
 #total-filmes, #total-diretores {
-  margin: auto;
+  margin: 5px auto;
 }
 
 h3.visualizacao {
-  color: #394E66;
   margin: 20px auto;
   text-align: center;
 }
@@ -102,7 +102,7 @@ h3.visualizacao {
   justify-content: center;
   margin: 20px auto;
   text-align: center;
-  width: 95%;
+  width: 100%;
 }
 
 .ordem button {
@@ -212,6 +212,7 @@ footer {
 @media (max-width: 840px) {
   ul {
     flex-direction: column;
+    line-height: 32px;
   }
 
   .container-dados {
