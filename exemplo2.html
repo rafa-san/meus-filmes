@@ -6,12 +6,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/estilo-exemplo2.css">
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header id="seta-topo">
-    <h2>Meus Filmes</h2>
+    <div class="container">
+      <h2 class="logo">Meus Filmes</h2>
       <nav>
         <ul>
           <li><a href="index.html">Exemplo 1</a></li>
@@ -19,6 +19,7 @@
           <li><a href="exemplo3.html">Exemplo 3</a></li>
         </ul>
       </nav>
+    </div>
   </header>
 
   <a href="#seta-topo"><button class="topo"><i class="fas fa-arrow-up"></i></button></a>
@@ -30,12 +31,12 @@
     </div>
 
     <div class="total-encontrado">
-      <h3>Total de Diretores Encontrados:</h3>
+      <h3>Total de Diretoras e Diretores Encontrados:</h3>
       <p id="total-diretores"></p>
     </div>
   </section>
 
-  <h3>Selecione abaixo a ordem da visualização:</h3>
+  <h3 class="visualizacao">Selecione abaixo a ordem da visualização:</h3>
 
   <section class="ordem">
   <button onclick="alfa()">Ordem Alfabética</button>
@@ -53,5 +54,6 @@
 
   <script src="scripts/exemplo2.js"></script>
   <script src="scripts/exemplo2-diretores.js"></script>
+  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
 </body>
 </html>

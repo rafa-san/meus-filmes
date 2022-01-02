@@ -1,5 +1,6 @@
 /* Estilo geral
 ============ */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -13,17 +14,19 @@ body {
 
 /* Estilo do navbar
 ================ */
-header {
+
+header .container {
   background-color: #f2f2f2;
   border-bottom: 2px solid #e6e6e6;
   display: flex;
   font-size: 17px;
   height: 40px;
+  justify-content: space-between;
   letter-spacing: 1px;
   width: 100%;
 }
 
-h2 {
+h2.logo {
   color: #2f4eda;
   font-family: Cinzel, serif;
   line-height: 40px;
@@ -66,36 +69,31 @@ li a:hover {
   color:  #2f4eda;
 }
 
-/* Estilo da galeria de filmes 
-=========================== */
+/* Estilo da section de dados e dos botões  
+======================================= */
+
 .container-dados {
   display: flex;
   justify-content: center;
-  margin: 10px auto;
+  margin: 20px auto;
   width: 100%;
 }
 
 .total-encontrado {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 0 5px;
-  padding: 0;
+  text-align: center;
   width: 30%;
 }
 
 #total-filmes, #total-diretores {
   margin: auto;
-  text-align: center;
-  width: 100%;
 }
 
-h3 {
+h3.visualizacao {
   color: #394E66;
-  line-height: 25px;
-  margin: auto;
-  margin-top: 20px;
-  padding: 20px 0 8px 0;
+  margin: 20px auto;
   text-align: center;
 }
 
@@ -125,6 +123,9 @@ button:hover {
   cursor: pointer;
 }
 
+/* Estilo da galeria de filmes 
+=========================== */
+
 .container-lista > div {
   background-color: #f2f2f2;
   display: flex;
@@ -149,7 +150,7 @@ button:hover {
   padding-left: 5px;
   text-align: center;
   vertical-align: middle;
-  width: 19%;
+  width: 24%;
 }
 
 #itens-lista > p:hover {
@@ -159,6 +160,7 @@ button:hover {
 
 /* Estilo da Seta 
 ============== */
+
 .topo {
   background-color: rgba(47, 78, 218, 0.5);
   border: none;
@@ -188,6 +190,7 @@ button:hover {
 
 /* Estilo do footer 
 ================ */
+
 footer {
   background-color: #f2f2f2;
   border-top: 2px solid #e6e6e6;
@@ -205,36 +208,19 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 579px) {
-  header {
-    flex-direction: column;
-    height: auto;
-  }
 
-  h2 {
-    margin: 0;
-    text-align: center;
-    width: auto;
-  }
-
+@media (max-width: 840px) {
   ul {
     flex-direction: column;
-    justify-content: center;
-    line-height: 2;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    width: 100%;
   }
 
   .container-dados {
     flex-direction: column;
-    margin: auto;
-    width: 95%
   }
 
   .total-encontrado {
-    margin: auto;
+    margin: 10px auto;
+    width: 100%;
   }
 
   .ordem {
@@ -242,53 +228,31 @@ footer {
   }
 
   .ordem button {
-    margin: 8px auto;
+    margin: 10px auto;
   }
 
   #itens-lista p {
-    height: 140px;
-    width: 100%;
+    flex: 100%;
   }
 }
 
-@media (max-width: 890px) and (min-width: 580px) {
-  header {
+@media (max-width: 1100px) {
+  header .container {
     flex-direction: column;
     height: auto;
-  }
-
-  h2 {
-    margin: 0;
     text-align: center;
-    width: auto;
   }
 
+  h2.logo {
+    margin: auto;
+  }
+  
   ul {
     justify-content: center;
-    line-height: 2;
-    text-align: center;
-    width: 100%;
-  }
-
-  .container-dados {
-    flex-direction: column;
     margin: auto;
-    width: 95%
-  }
-
-  .total-encontrado {
-    margin: auto;
-  }
-
-  .ordem {
-    flex-direction: column;
-  }
-
-  .ordem button {
-    margin: 8px auto;
   }
 
   #itens-lista p {
-    width: 48%;
+    width: 32%;
   }
 }
