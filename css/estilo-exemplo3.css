@@ -191,7 +191,7 @@ footer {
 /* Design responsivo 
 ================= */
 
-@media screen and (max-height: 412px) {
+@media screen and (max-height: 540px) {
   aside {
     height: 180px;
   }
@@ -222,14 +222,16 @@ footer {
   }
   
   ul {
-    flex-direction: column;
+    font-size: 13px;
+    justify-content: center;
+    line-height: 2;
     text-align: center;
     width: 100%;
   }
 
   aside {
     height: 200px;
-    top: 165px;
+    top: 70px;
   }
 
   .inicio-galeria {
