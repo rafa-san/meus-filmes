@@ -1,5 +1,6 @@
 /* Estilo geral
 ============ */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -15,6 +16,7 @@ body {
 
 /* Estilo do navbar
 ================ */
+
 header {
   background-color: #000000;
   display: flex;
@@ -24,7 +26,7 @@ header {
   width: 100%;
 }
 
-h2 {
+.logo {
   color: rgba(255, 0, 51, 1);
   font-family: Montserrat, sans-serif;
   line-height: 40px;
@@ -62,34 +64,37 @@ li a:hover {
   color: rgba(255, 0, 51, 1);
 }
 
-/* Estilo da linha do tempo
-======================== */
+/* Estilo do menu lateral
+====================== */
+
 aside {
-  cursor: pointer;
   display: flex;
   flex-direction: column;
+  height: 422px;
+  overflow-y: auto;
   position: fixed;
   right: 0;
-  top: 90px;
+  top: 43px;
 }
 
-.conteudo-dropdown {
+.menu-lateral {
   background-color: #333333;
-  cursor: pointer;
   display: none;
-  width: 5rem;
+  text-align: center;
+  width: 3rem;
 }
 
-.conteudo-dropdown a {
+.menu-lateral a {
   color: rgb(217, 217, 217);
+  cursor: pointer;
   display: block;
   font-size: 16px;
-  padding: 12px 1px;
+  padding: 10px 0;
   text-align: center;
   text-decoration: none;
 }
 
-.conteudo-dropdown a:hover {
+.menu-lateral a:hover {
   background-color: #1a1a1a;
   border: 1px solid rgb(255, 0, 51);
   color: rgb(255, 0, 51);
@@ -97,13 +102,13 @@ aside {
 
 /* Estilo da galeria de filmes
 =========================== */
+
 .inicio-galeria {
   background-color: #1a1a1a;
   font-size: 24px;
-  margin: 0 auto;
-  padding: 18px 14px 10px 0;
+  margin: 30px auto 10px;
   text-align: center;
-  width: 100%;
+  width: 85%;
 }
 
 section {
@@ -112,8 +117,8 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
-  padding: 5px 5px 17px 0;
-  width: 83%;
+  padding: 5px 0;
+  width: 85%;
 }
 
 section > div:hover {
@@ -125,15 +130,17 @@ section > div:hover {
 
 /* Estilo do hover overlay
 ======================= */
+
 .galeria {
-  margin: 0 12px 12px 0;
+  border-radius: 9px;
+  height: 301px;
+  margin: 5px;
   position: relative;
+  width: 201px;
 }
 
 .imagem {
   border-radius: 9px;
-  height: 301px;
-  width: 201px;
 }
 
 .galeria:hover .imagem {
@@ -166,6 +173,7 @@ section > div:hover {
 
 /* Estilo do footer 
 ================ */
+
 footer {
   background-color: #000000;
   color: #ffffff;
@@ -182,71 +190,63 @@ footer {
 
 /* Design responsivo 
 ================= */
-@media (max-width: 399px) {
-  header {
-    flex-direction: column;
-    height: auto;
-  }
 
-  h2 {
-    margin: 0;
-    text-align: center;
-    width: 100%;
-  }
-  
-  ul {
-    font-size: 5vw;
-    justify-content: center;
-    margin: 0;
-    width: 100%;
-  }
-
-  li a {
-    letter-spacing: 0;
-    margin: 0 8px;
-  }
-
+@media screen and (max-height: 412px) {
   aside {
-    top: 105px;
+    height: 180px;
   }
 
-  .conteudo-dropdown {
-    width: 3.2rem;
+  .inicio-galeria {
+    width: 35%;
   }
 
-  .conteudo-dropdown a {
-    padding: 12% 0;
+  section {
+    width: 35%;
+  }
+
+  .texto {
+    font-size: 1.3rem;
   }
 }
 
-@media (max-width: 815px) and (min-width: 400px) {
+@media screen and (max-width: 900px) {
   header {
     flex-direction: column;
     height: auto;
   }
 
-  h2 {
+  .logo {
     margin: 0;
     text-align: center;
     width: 100%;
   }
   
   ul {
-    justify-content: center;
-    line-height: 2;
+    flex-direction: column;
     text-align: center;
     width: 100%;
   }
 
   aside {
-    top: 105px;
+    height: 200px;
+    top: 165px;
   }
 
-  .conteudo-dropdown {
-    width: 3.2rem;
+  .inicio-galeria {
+    max-width: 55%;
   }
 
-  .conteudo-dropdown a {
-    padding: 18% 0;
+  section {
+    max-width: 55%;
+  }
+
+  .galeria {
+    height: auto;
+    margin-top: 10px;
+    width: 100%
+  }
+
+  .texto {
+    font-size: 1rem;
   }
 }

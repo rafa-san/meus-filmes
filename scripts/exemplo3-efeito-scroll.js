@@ -2,9 +2,9 @@ var scrollUp = window.pageYOffset;
 window.onscroll = function() {
 var scrollDown = window.pageYOffset;
   if (scrollUp > scrollDown) {
-    document.querySelector(".conteudo-dropdown").style.display = "block";
+    document.querySelector(".menu-lateral").style.display = "block";
   } else {
-    document.querySelector(".conteudo-dropdown").style.display = "none";
+    document.querySelector(".menu-lateral").style.display = "none";
   }
   scrollUp = scrollDown;
 }
