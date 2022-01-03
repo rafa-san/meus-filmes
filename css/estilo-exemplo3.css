@@ -191,7 +191,7 @@ footer {
 /* Design responsivo 
 ================= */
 
-@media screen and (max-height: 540px) {
+@media screen and (max-height: 479px) {
   aside {
     height: 180px;
   }
@@ -202,10 +202,6 @@ footer {
 
   section {
     width: 35%;
-  }
-
-  .texto {
-    font-size: 1.3rem;
   }
 }
 
@@ -246,9 +242,5 @@ footer {
     height: auto;
     margin-top: 10px;
     width: 100%
-  }
-
-  .texto {
-    font-size: 1rem;
   }
 }
