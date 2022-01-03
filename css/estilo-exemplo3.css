@@ -81,7 +81,7 @@ aside {
   background-color: #333333;
   display: none;
   text-align: center;
-  width: 3rem;
+  width: 4rem;
 }
 
 .menu-lateral a {
@@ -108,7 +108,7 @@ aside {
   font-size: 24px;
   margin: 30px auto 10px;
   text-align: center;
-  width: 85%;
+  width: 82%;
 }
 
 section {
@@ -118,7 +118,7 @@ section {
   justify-content: center;
   margin: auto;
   padding: 5px 0;
-  width: 85%;
+  width: 82%;
 }
 
 section > div:hover {
@@ -151,7 +151,7 @@ section > div:hover {
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 9px;
   color: white;
-  font-size: 22px;
+  font-size: 21px;
   height: 100%;
   line-height: 1.5;
   opacity: 0;
@@ -168,7 +168,7 @@ section > div:hover {
 }
 
 .texto p:first-child {
-  margin-top: 45%;
+  margin-top: 42%;
 }
 
 /* Estilo do footer 
@@ -205,7 +205,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 605px) {
   header {
     flex-direction: column;
     height: auto;
@@ -218,7 +218,7 @@ footer {
   }
   
   ul {
-    font-size: 13px;
+    font-size: 12px;
     justify-content: center;
     line-height: 2;
     text-align: center;
@@ -230,17 +230,26 @@ footer {
     top: 70px;
   }
 
+  .menu-lateral {
+    width: 2.5rem;
+  }
+
   .inicio-galeria {
-    max-width: 55%;
+    font-size: 22px;
+    max-width: 58%;
   }
 
   section {
-    max-width: 55%;
+    max-width: 58%;
   }
 
   .galeria {
     height: auto;
     margin-top: 10px;
     width: 100%
+  }
+
+  .texto {
+    font-size: 16px;
   }
 }
