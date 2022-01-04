@@ -133,14 +133,14 @@ section > div:hover {
 
 .galeria {
   border-radius: 9px;
-  height: 301px;
   margin: 5px;
   position: relative;
-  width: 201px;
 }
 
 .imagem {
   border-radius: 9px;
+  height: 301px;
+  width: 201px;
 }
 
 .galeria:hover .imagem {
