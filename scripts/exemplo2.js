@@ -200,12 +200,14 @@ const filmes = [
   {filme: 'Shame', ano: 2011, diretor: 'Steve McQueen'}
 ]
 
+
 // Exibir a quantidade de filmes:
 document.getElementById('total-filmes').innerHTML = filmes.length;
 
-// Exibir em ordem alfabética:
 exibirFilmes();
 
+
+// Exibir em ordem alfabética:
 function alfa() {
   filmes.sort(function(a, b) {
     let x = a.filme.toLowerCase().replace(/[àáâãäå]/,"a").replace(/[èéêë]/,"e").replace(/[ìíîï]/,"i").replace(/[òóôõö]/,"o").replace(/[ùúûü]/,"u").replace(/[ç]/,"c").replace(/[^a-z0-9]/gi,'');
@@ -217,17 +219,15 @@ function alfa() {
   exibirFilmes();
 };
 
-// Exibir em ordem cronológica:
-exibirFilmes();
-  
+
+// Exibir em ordem cronológica: 
 function cron() {
   filmes.sort(function(a, b) {return a.ano - b.ano});
   exibirFilmes()
 };
 
-// Exibir por diretor:
-exibirFilmes();
 
+// Exibir por diretor:
 function dire() {
   filmes.sort(function(a, b) {
     let m = a.diretor.toLowerCase();
@@ -242,204 +242,8 @@ function dire() {
 
 function exibirFilmes() {
   let texto = '';
-  document.getElementById('itens-lista').innerHTML = 
-  texto += `<p> <strong>${filmes[0].filme}</strong> (${filmes[0].ano}) <br> ${filmes[0].diretor} </p>` +
-  `<p> <strong>${filmes[1].filme}</strong> (${filmes[1].ano}) <br> ${filmes[1].diretor} </p>` +
-  `<p> <strong>${filmes[2].filme}</strong> (${filmes[2].ano}) <br> ${filmes[2].diretor} </p>` +
-  `<p> <strong>${filmes[3].filme}</strong> (${filmes[3].ano}) <br> ${filmes[3].diretor} </p>` +
-  `<p> <strong>${filmes[4].filme}</strong> (${filmes[4].ano}) <br> ${filmes[4].diretor} </p>` +
-  `<p> <strong>${filmes[5].filme}</strong> (${filmes[5].ano}) <br> ${filmes[5].diretor} </p>` +
-  `<p> <strong>${filmes[6].filme}</strong> (${filmes[6].ano}) <br> ${filmes[6].diretor} </p>` +
-  `<p> <strong>${filmes[7].filme}</strong> (${filmes[7].ano}) <br> ${filmes[7].diretor} </p>` +
-  `<p> <strong>${filmes[8].filme}</strong> (${filmes[8].ano}) <br> ${filmes[8].diretor} </p>` +
-  `<p> <strong>${filmes[9].filme}</strong> (${filmes[9].ano}) <br> ${filmes[9].diretor} </p>` +
-  `<p> <strong>${filmes[10].filme}</strong> (${filmes[10].ano}) <br> ${filmes[10].diretor} </p>` +
-  `<p> <strong>${filmes[11].filme}</strong> (${filmes[11].ano}) <br> ${filmes[11].diretor} </p>` +
-  `<p> <strong>${filmes[12].filme}</strong> (${filmes[12].ano}) <br> ${filmes[12].diretor} </p>` +
-  `<p> <strong>${filmes[13].filme}</strong> (${filmes[13].ano}) <br> ${filmes[13].diretor} </p>` +
-  `<p> <strong>${filmes[14].filme}</strong> (${filmes[14].ano}) <br> ${filmes[14].diretor} </p>` +
-  `<p> <strong>${filmes[15].filme}</strong> (${filmes[15].ano}) <br> ${filmes[15].diretor} </p>` +
-  `<p> <strong>${filmes[16].filme}</strong> (${filmes[16].ano}) <br> ${filmes[16].diretor} </p>` +
-  `<p> <strong>${filmes[17].filme}</strong> (${filmes[17].ano}) <br> ${filmes[17].diretor} </p>` +
-  `<p> <strong>${filmes[18].filme}</strong> (${filmes[18].ano}) <br> ${filmes[18].diretor} </p>` +
-  `<p> <strong>${filmes[19].filme}</strong> (${filmes[19].ano}) <br> ${filmes[19].diretor} </p>` +
-  `<p> <strong>${filmes[20].filme}</strong> (${filmes[20].ano}) <br> ${filmes[20].diretor} </p>` +
-  `<p> <strong>${filmes[21].filme}</strong> (${filmes[21].ano}) <br> ${filmes[21].diretor} </p>` +
-  `<p> <strong>${filmes[22].filme}</strong> (${filmes[22].ano}) <br> ${filmes[22].diretor} </p>` +
-  `<p> <strong>${filmes[23].filme}</strong> (${filmes[23].ano}) <br> ${filmes[23].diretor} </p>` +
-  `<p> <strong>${filmes[24].filme}</strong> (${filmes[24].ano}) <br> ${filmes[24].diretor} </p>` +
-  `<p> <strong>${filmes[25].filme}</strong> (${filmes[25].ano}) <br> ${filmes[25].diretor} </p>` +
-  `<p> <strong>${filmes[26].filme}</strong> (${filmes[26].ano}) <br> ${filmes[26].diretor} </p>` +
-  `<p> <strong>${filmes[27].filme}</strong> (${filmes[27].ano}) <br> ${filmes[27].diretor} </p>` +
-  `<p> <strong>${filmes[28].filme}</strong> (${filmes[28].ano}) <br> ${filmes[28].diretor} </p>` +
-  `<p> <strong>${filmes[29].filme}</strong> (${filmes[29].ano}) <br> ${filmes[29].diretor} </p>` +
-  `<p> <strong>${filmes[30].filme}</strong> (${filmes[30].ano}) <br> ${filmes[30].diretor} </p>` +
-  `<p> <strong>${filmes[31].filme}</strong> (${filmes[31].ano}) <br> ${filmes[31].diretor} </p>` +
-  `<p> <strong>${filmes[32].filme}</strong> (${filmes[32].ano}) <br> ${filmes[32].diretor} </p>` +
-  `<p> <strong>${filmes[33].filme}</strong> (${filmes[33].ano}) <br> ${filmes[33].diretor} </p>` +
-  `<p> <strong>${filmes[34].filme}</strong> (${filmes[34].ano}) <br> ${filmes[34].diretor} </p>` +
-  `<p> <strong>${filmes[35].filme}</strong> (${filmes[35].ano}) <br> ${filmes[35].diretor} </p>` +
-  `<p> <strong>${filmes[36].filme}</strong> (${filmes[36].ano}) <br> ${filmes[36].diretor} </p>` +
-  `<p> <strong>${filmes[37].filme}</strong> (${filmes[37].ano}) <br> ${filmes[37].diretor} </p>` +
-  `<p> <strong>${filmes[38].filme}</strong> (${filmes[38].ano}) <br> ${filmes[38].diretor} </p>` +
-  `<p> <strong>${filmes[39].filme}</strong> (${filmes[39].ano}) <br> ${filmes[39].diretor} </p>` +
-  `<p> <strong>${filmes[40].filme}</strong> (${filmes[40].ano}) <br> ${filmes[40].diretor} </p>` +
-  `<p> <strong>${filmes[41].filme}</strong> (${filmes[41].ano}) <br> ${filmes[41].diretor} </p>` +
-  `<p> <strong>${filmes[42].filme}</strong> (${filmes[42].ano}) <br> ${filmes[42].diretor} </p>` +
-  `<p> <strong>${filmes[43].filme}</strong> (${filmes[43].ano}) <br> ${filmes[43].diretor} </p>` +
-  `<p> <strong>${filmes[44].filme}</strong> (${filmes[44].ano}) <br> ${filmes[44].diretor} </p>` +
-  `<p> <strong>${filmes[45].filme}</strong> (${filmes[45].ano}) <br> ${filmes[45].diretor} </p>` +
-  `<p> <strong>${filmes[46].filme}</strong> (${filmes[46].ano}) <br> ${filmes[46].diretor} </p>` +
-  `<p> <strong>${filmes[47].filme}</strong> (${filmes[47].ano}) <br> ${filmes[47].diretor} </p>` +
-  `<p> <strong>${filmes[48].filme}</strong> (${filmes[48].ano}) <br> ${filmes[48].diretor} </p>` +
-  `<p> <strong>${filmes[49].filme}</strong> (${filmes[49].ano}) <br> ${filmes[49].diretor} </p>` +
-  `<p> <strong>${filmes[50].filme}</strong> (${filmes[50].ano}) <br> ${filmes[50].diretor} </p>` +
-  `<p> <strong>${filmes[51].filme}</strong> (${filmes[51].ano}) <br> ${filmes[51].diretor} </p>` +
-  `<p> <strong>${filmes[52].filme}</strong> (${filmes[52].ano}) <br> ${filmes[52].diretor} </p>` +
-  `<p> <strong>${filmes[53].filme}</strong> (${filmes[53].ano}) <br> ${filmes[53].diretor} </p>` +
-  `<p> <strong>${filmes[54].filme}</strong> (${filmes[54].ano}) <br> ${filmes[54].diretor} </p>` +
-  `<p> <strong>${filmes[55].filme}</strong> (${filmes[55].ano}) <br> ${filmes[55].diretor} </p>` +
-  `<p> <strong>${filmes[56].filme}</strong> (${filmes[56].ano}) <br> ${filmes[56].diretor} </p>` +
-  `<p> <strong>${filmes[57].filme}</strong> (${filmes[57].ano}) <br> ${filmes[57].diretor} </p>` +
-  `<p> <strong>${filmes[58].filme}</strong> (${filmes[58].ano}) <br> ${filmes[58].diretor} </p>` +
-  `<p> <strong>${filmes[59].filme}</strong> (${filmes[59].ano}) <br> ${filmes[59].diretor} </p>` +
-  `<p> <strong>${filmes[60].filme}</strong> (${filmes[60].ano}) <br> ${filmes[60].diretor} </p>` +
-  `<p> <strong>${filmes[61].filme}</strong> (${filmes[61].ano}) <br> ${filmes[61].diretor} </p>` +
-  `<p> <strong>${filmes[62].filme}</strong> (${filmes[62].ano}) <br> ${filmes[62].diretor} </p>` +
-  `<p> <strong>${filmes[63].filme}</strong> (${filmes[63].ano}) <br> ${filmes[63].diretor} </p>` +
-  `<p> <strong>${filmes[64].filme}</strong> (${filmes[64].ano}) <br> ${filmes[64].diretor} </p>` +
-  `<p> <strong>${filmes[65].filme}</strong> (${filmes[65].ano}) <br> ${filmes[65].diretor} </p>` +
-  `<p> <strong>${filmes[66].filme}</strong> (${filmes[66].ano}) <br> ${filmes[66].diretor} </p>` +
-  `<p> <strong>${filmes[67].filme}</strong> (${filmes[67].ano}) <br> ${filmes[67].diretor} </p>` +
-  `<p> <strong>${filmes[68].filme}</strong> (${filmes[68].ano}) <br> ${filmes[68].diretor} </p>` +
-  `<p> <strong>${filmes[69].filme}</strong> (${filmes[69].ano}) <br> ${filmes[69].diretor} </p>` +
-  `<p> <strong>${filmes[70].filme}</strong> (${filmes[70].ano}) <br> ${filmes[70].diretor} </p>` +
-  `<p> <strong>${filmes[71].filme}</strong> (${filmes[71].ano}) <br> ${filmes[71].diretor} </p>` +
-  `<p> <strong>${filmes[72].filme}</strong> (${filmes[72].ano}) <br> ${filmes[72].diretor} </p>` +
-  `<p> <strong>${filmes[73].filme}</strong> (${filmes[73].ano}) <br> ${filmes[73].diretor} </p>` +
-  `<p> <strong>${filmes[74].filme}</strong> (${filmes[74].ano}) <br> ${filmes[74].diretor} </p>` +
-  `<p> <strong>${filmes[75].filme}</strong> (${filmes[75].ano}) <br> ${filmes[75].diretor} </p>` +
-  `<p> <strong>${filmes[76].filme}</strong> (${filmes[76].ano}) <br> ${filmes[76].diretor} </p>` +
-  `<p> <strong>${filmes[77].filme}</strong> (${filmes[77].ano}) <br> ${filmes[77].diretor} </p>` +
-  `<p> <strong>${filmes[78].filme}</strong> (${filmes[78].ano}) <br> ${filmes[78].diretor} </p>` +
-  `<p> <strong>${filmes[79].filme}</strong> (${filmes[79].ano}) <br> ${filmes[79].diretor} </p>` +
-  `<p> <strong>${filmes[80].filme}</strong> (${filmes[80].ano}) <br> ${filmes[80].diretor} </p>` +
-  `<p> <strong>${filmes[81].filme}</strong> (${filmes[81].ano}) <br> ${filmes[81].diretor} </p>` +
-  `<p> <strong>${filmes[82].filme}</strong> (${filmes[82].ano}) <br> ${filmes[82].diretor} </p>` +
-  `<p> <strong>${filmes[83].filme}</strong> (${filmes[83].ano}) <br> ${filmes[83].diretor} </p>` +
-  `<p> <strong>${filmes[84].filme}</strong> (${filmes[84].ano}) <br> ${filmes[84].diretor} </p>` +
-  `<p> <strong>${filmes[85].filme}</strong> (${filmes[85].ano}) <br> ${filmes[85].diretor} </p>` +
-  `<p> <strong>${filmes[86].filme}</strong> (${filmes[86].ano}) <br> ${filmes[86].diretor} </p>` +
-  `<p> <strong>${filmes[87].filme}</strong> (${filmes[87].ano}) <br> ${filmes[87].diretor} </p>` +
-  `<p> <strong>${filmes[88].filme}</strong> (${filmes[88].ano}) <br> ${filmes[88].diretor} </p>` +
-  `<p> <strong>${filmes[89].filme}</strong> (${filmes[89].ano}) <br> ${filmes[89].diretor} </p>` +
-  `<p> <strong>${filmes[90].filme}</strong> (${filmes[90].ano}) <br> ${filmes[90].diretor} </p>` +
-  `<p> <strong>${filmes[91].filme}</strong> (${filmes[91].ano}) <br> ${filmes[91].diretor} </p>` +
-  `<p> <strong>${filmes[92].filme}</strong> (${filmes[92].ano}) <br> ${filmes[92].diretor} </p>` +
-  `<p> <strong>${filmes[93].filme}</strong> (${filmes[93].ano}) <br> ${filmes[93].diretor} </p>` +
-  `<p> <strong>${filmes[94].filme}</strong> (${filmes[94].ano}) <br> ${filmes[94].diretor} </p>` +
-  `<p> <strong>${filmes[95].filme}</strong> (${filmes[95].ano}) <br> ${filmes[95].diretor} </p>` +
-  `<p> <strong>${filmes[96].filme}</strong> (${filmes[96].ano}) <br> ${filmes[96].diretor} </p>` +
-  `<p> <strong>${filmes[97].filme}</strong> (${filmes[97].ano}) <br> ${filmes[97].diretor} </p>` +
-  `<p> <strong>${filmes[98].filme}</strong> (${filmes[98].ano}) <br> ${filmes[98].diretor} </p>` +
-  `<p> <strong>${filmes[99].filme}</strong> (${filmes[99].ano}) <br> ${filmes[99].diretor} </p>` +
-  `<p> <strong>${filmes[100].filme}</strong> (${filmes[100].ano}) <br> ${filmes[100].diretor} </p>` +
-  `<p> <strong>${filmes[101].filme}</strong> (${filmes[101].ano}) <br> ${filmes[101].diretor} </p>` +
-  `<p> <strong>${filmes[102].filme}</strong> (${filmes[102].ano}) <br> ${filmes[102].diretor} </p>` +
-  `<p> <strong>${filmes[103].filme}</strong> (${filmes[103].ano}) <br> ${filmes[103].diretor} </p>` +
-  `<p> <strong>${filmes[104].filme}</strong> (${filmes[104].ano}) <br> ${filmes[104].diretor} </p>` +
-  `<p> <strong>${filmes[105].filme}</strong> (${filmes[105].ano}) <br> ${filmes[105].diretor} </p>` +
-  `<p> <strong>${filmes[106].filme}</strong> (${filmes[106].ano}) <br> ${filmes[106].diretor} </p>` +
-  `<p> <strong>${filmes[107].filme}</strong> (${filmes[107].ano}) <br> ${filmes[107].diretor} </p>` +
-  `<p> <strong>${filmes[108].filme}</strong> (${filmes[108].ano}) <br> ${filmes[108].diretor} </p>` +
-  `<p> <strong>${filmes[109].filme}</strong> (${filmes[109].ano}) <br> ${filmes[109].diretor} </p>` +
-  `<p> <strong>${filmes[110].filme}</strong> (${filmes[110].ano}) <br> ${filmes[110].diretor} </p>` +
-  `<p> <strong>${filmes[111].filme}</strong> (${filmes[111].ano}) <br> ${filmes[111].diretor} </p>` +
-  `<p> <strong>${filmes[112].filme}</strong> (${filmes[112].ano}) <br> ${filmes[112].diretor} </p>` +
-  `<p> <strong>${filmes[113].filme}</strong> (${filmes[113].ano}) <br> ${filmes[113].diretor} </p>` +
-  `<p> <strong>${filmes[114].filme}</strong> (${filmes[114].ano}) <br> ${filmes[114].diretor} </p>` +
-  `<p> <strong>${filmes[115].filme}</strong> (${filmes[115].ano}) <br> ${filmes[115].diretor} </p>` +
-  `<p> <strong>${filmes[116].filme}</strong> (${filmes[116].ano}) <br> ${filmes[116].diretor} </p>` +
-  `<p> <strong>${filmes[117].filme}</strong> (${filmes[117].ano}) <br> ${filmes[117].diretor} </p>` +
-  `<p> <strong>${filmes[118].filme}</strong> (${filmes[118].ano}) <br> ${filmes[118].diretor} </p>` +
-  `<p> <strong>${filmes[119].filme}</strong> (${filmes[119].ano}) <br> ${filmes[119].diretor} </p>` +
-  `<p> <strong>${filmes[120].filme}</strong> (${filmes[120].ano}) <br> ${filmes[120].diretor} </p>` +
-  `<p> <strong>${filmes[121].filme}</strong> (${filmes[121].ano}) <br> ${filmes[121].diretor} </p>` +
-  `<p> <strong>${filmes[122].filme}</strong> (${filmes[122].ano}) <br> ${filmes[122].diretor} </p>` +
-  `<p> <strong>${filmes[123].filme}</strong> (${filmes[123].ano}) <br> ${filmes[123].diretor} </p>` +
-  `<p> <strong>${filmes[124].filme}</strong> (${filmes[124].ano}) <br> ${filmes[124].diretor} </p>` +
-  `<p> <strong>${filmes[125].filme}</strong> (${filmes[125].ano}) <br> ${filmes[125].diretor} </p>` +
-  `<p> <strong>${filmes[126].filme}</strong> (${filmes[126].ano}) <br> ${filmes[126].diretor} </p>` +
-  `<p> <strong>${filmes[127].filme}</strong> (${filmes[127].ano}) <br> ${filmes[127].diretor} </p>` +
-  `<p> <strong>${filmes[128].filme}</strong> (${filmes[128].ano}) <br> ${filmes[128].diretor} </p>` +
-  `<p> <strong>${filmes[129].filme}</strong> (${filmes[129].ano}) <br> ${filmes[129].diretor} </p>` +
-  `<p> <strong>${filmes[130].filme}</strong> (${filmes[130].ano}) <br> ${filmes[130].diretor} </p>` +
-  `<p> <strong>${filmes[131].filme}</strong> (${filmes[131].ano}) <br> ${filmes[131].diretor} </p>` +
-  `<p> <strong>${filmes[132].filme}</strong> (${filmes[132].ano}) <br> ${filmes[132].diretor} </p>` +
-  `<p> <strong>${filmes[133].filme}</strong> (${filmes[133].ano}) <br> ${filmes[133].diretor} </p>` +
-  `<p> <strong>${filmes[134].filme}</strong> (${filmes[134].ano}) <br> ${filmes[134].diretor} </p>` +
-  `<p> <strong>${filmes[135].filme}</strong> (${filmes[135].ano}) <br> ${filmes[135].diretor} </p>` +
-  `<p> <strong>${filmes[136].filme}</strong> (${filmes[136].ano}) <br> ${filmes[136].diretor} </p>` +
-  `<p> <strong>${filmes[137].filme}</strong> (${filmes[137].ano}) <br> ${filmes[137].diretor} </p>` +
-  `<p> <strong>${filmes[138].filme}</strong> (${filmes[138].ano}) <br> ${filmes[138].diretor} </p>` +
-  `<p> <strong>${filmes[139].filme}</strong> (${filmes[139].ano}) <br> ${filmes[139].diretor} </p>` +
-  `<p> <strong>${filmes[140].filme}</strong> (${filmes[140].ano}) <br> ${filmes[140].diretor} </p>` +
-  `<p> <strong>${filmes[141].filme}</strong> (${filmes[141].ano}) <br> ${filmes[141].diretor} </p>` +
-  `<p> <strong>${filmes[142].filme}</strong> (${filmes[142].ano}) <br> ${filmes[142].diretor} </p>` +
-  `<p> <strong>${filmes[143].filme}</strong> (${filmes[143].ano}) <br> ${filmes[143].diretor} </p>` +
-  `<p> <strong>${filmes[144].filme}</strong> (${filmes[144].ano}) <br> ${filmes[144].diretor} </p>` +
-  `<p> <strong>${filmes[145].filme}</strong> (${filmes[145].ano}) <br> ${filmes[145].diretor} </p>` +
-  `<p> <strong>${filmes[146].filme}</strong> (${filmes[146].ano}) <br> ${filmes[146].diretor} </p>` +
-  `<p> <strong>${filmes[147].filme}</strong> (${filmes[147].ano}) <br> ${filmes[147].diretor} </p>` +
-  `<p> <strong>${filmes[148].filme}</strong> (${filmes[148].ano}) <br> ${filmes[148].diretor} </p>` +
-  `<p> <strong>${filmes[149].filme}</strong> (${filmes[149].ano}) <br> ${filmes[149].diretor} </p>` +
-  `<p> <strong>${filmes[150].filme}</strong> (${filmes[150].ano}) <br> ${filmes[150].diretor} </p>` +
-  `<p> <strong>${filmes[151].filme}</strong> (${filmes[151].ano}) <br> ${filmes[151].diretor} </p>` +
-  `<p> <strong>${filmes[152].filme}</strong> (${filmes[152].ano}) <br> ${filmes[152].diretor} </p>` +
-  `<p> <strong>${filmes[153].filme}</strong> (${filmes[153].ano}) <br> ${filmes[153].diretor} </p>` +
-  `<p> <strong>${filmes[154].filme}</strong> (${filmes[154].ano}) <br> ${filmes[154].diretor} </p>` +
-  `<p> <strong>${filmes[155].filme}</strong> (${filmes[155].ano}) <br> ${filmes[155].diretor} </p>` +
-  `<p> <strong>${filmes[156].filme}</strong> (${filmes[156].ano}) <br> ${filmes[156].diretor} </p>` +
-  `<p> <strong>${filmes[157].filme}</strong> (${filmes[157].ano}) <br> ${filmes[157].diretor} </p>` +
-  `<p> <strong>${filmes[158].filme}</strong> (${filmes[158].ano}) <br> ${filmes[158].diretor} </p>` +
-  `<p> <strong>${filmes[159].filme}</strong> (${filmes[159].ano}) <br> ${filmes[159].diretor} </p>` +
-  `<p> <strong>${filmes[160].filme}</strong> (${filmes[160].ano}) <br> ${filmes[160].diretor} </p>` +
-  `<p> <strong>${filmes[161].filme}</strong> (${filmes[161].ano}) <br> ${filmes[161].diretor} </p>` +
-  `<p> <strong>${filmes[162].filme}</strong> (${filmes[162].ano}) <br> ${filmes[162].diretor} </p>` +
-  `<p> <strong>${filmes[163].filme}</strong> (${filmes[163].ano}) <br> ${filmes[163].diretor} </p>` +
-  `<p> <strong>${filmes[164].filme}</strong> (${filmes[164].ano}) <br> ${filmes[164].diretor} </p>` +
-  `<p> <strong>${filmes[165].filme}</strong> (${filmes[165].ano}) <br> ${filmes[165].diretor} </p>` +
-  `<p> <strong>${filmes[166].filme}</strong> (${filmes[166].ano}) <br> ${filmes[166].diretor} </p>` +
-  `<p> <strong>${filmes[167].filme}</strong> (${filmes[167].ano}) <br> ${filmes[167].diretor} </p>` +
-  `<p> <strong>${filmes[168].filme}</strong> (${filmes[168].ano}) <br> ${filmes[168].diretor} </p>` +
-  `<p> <strong>${filmes[169].filme}</strong> (${filmes[169].ano}) <br> ${filmes[169].diretor} </p>` +
-  `<p> <strong>${filmes[170].filme}</strong> (${filmes[170].ano}) <br> ${filmes[170].diretor} </p>` +
-  `<p> <strong>${filmes[171].filme}</strong> (${filmes[171].ano}) <br> ${filmes[171].diretor} </p>` +
-  `<p> <strong>${filmes[172].filme}</strong> (${filmes[172].ano}) <br> ${filmes[172].diretor} </p>` +
-  `<p> <strong>${filmes[173].filme}</strong> (${filmes[173].ano}) <br> ${filmes[173].diretor} </p>` +
-  `<p> <strong>${filmes[174].filme}</strong> (${filmes[174].ano}) <br> ${filmes[174].diretor} </p>` +
-  `<p> <strong>${filmes[175].filme}</strong> (${filmes[175].ano}) <br> ${filmes[175].diretor} </p>` +
-  `<p> <strong>${filmes[176].filme}</strong> (${filmes[176].ano}) <br> ${filmes[176].diretor} </p>` +
-  `<p> <strong>${filmes[177].filme}</strong> (${filmes[177].ano}) <br> ${filmes[177].diretor} </p>` +
-  `<p> <strong>${filmes[178].filme}</strong> (${filmes[178].ano}) <br> ${filmes[178].diretor} </p>` +
-  `<p> <strong>${filmes[179].filme}</strong> (${filmes[179].ano}) <br> ${filmes[179].diretor} </p>` +
-  `<p> <strong>${filmes[180].filme}</strong> (${filmes[180].ano}) <br> ${filmes[180].diretor} </p>` +
-  `<p> <strong>${filmes[181].filme}</strong> (${filmes[181].ano}) <br> ${filmes[181].diretor} </p>` +
-  `<p> <strong>${filmes[182].filme}</strong> (${filmes[182].ano}) <br> ${filmes[182].diretor} </p>` +
-  `<p> <strong>${filmes[183].filme}</strong> (${filmes[183].ano}) <br> ${filmes[183].diretor} </p>` +
-  `<p> <strong>${filmes[184].filme}</strong> (${filmes[184].ano}) <br> ${filmes[184].diretor} </p>` +
-  `<p> <strong>${filmes[185].filme}</strong> (${filmes[185].ano}) <br> ${filmes[185].diretor} </p>` +
-  `<p> <strong>${filmes[186].filme}</strong> (${filmes[186].ano}) <br> ${filmes[186].diretor} </p>` +
-  `<p> <strong>${filmes[187].filme}</strong> (${filmes[187].ano}) <br> ${filmes[187].diretor} </p>` +
-  `<p> <strong>${filmes[188].filme}</strong> (${filmes[188].ano}) <br> ${filmes[188].diretor} </p>` +
-  `<p> <strong>${filmes[189].filme}</strong> (${filmes[189].ano}) <br> ${filmes[189].diretor} </p>` +
-  `<p> <strong>${filmes[190].filme}</strong> (${filmes[190].ano}) <br> ${filmes[190].diretor} </p>` +
-  `<p> <strong>${filmes[191].filme}</strong> (${filmes[191].ano}) <br> ${filmes[191].diretor} </p>` +
-  `<p> <strong>${filmes[192].filme}</strong> (${filmes[192].ano}) <br> ${filmes[192].diretor} </p>` +
-  `<p> <strong>${filmes[193].filme}</strong> (${filmes[193].ano}) <br> ${filmes[193].diretor} </p>` +
-  `<p> <strong>${filmes[194].filme}</strong> (${filmes[194].ano}) <br> ${filmes[194].diretor} </p>` +
-  `<p> <strong>${filmes[195].filme}</strong> (${filmes[195].ano}) <br> ${filmes[195].diretor} </p>` +
-  `<p> <strong>${filmes[196].filme}</strong> (${filmes[196].ano}) <br> ${filmes[196].diretor} </p>` +
-  `<p> <strong>${filmes[197].filme}</strong> (${filmes[197].ano}) <br> ${filmes[197].diretor} </p>` +
-  `<p> <strong>${filmes[198].filme}</strong> (${filmes[198].ano}) <br> ${filmes[198].diretor} </p>`;
+  for (let i = 0; i < filmes.length; i++) {
+    texto += `<p> <strong>${filmes[i].filme}</strong> (${filmes[i].ano}) <br> ${filmes[i].diretor} </p>`;
+  } 
+  document.getElementById('itens-lista').innerHTML = texto;
 }
