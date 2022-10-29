@@ -121,6 +121,10 @@ section {
   width: 80%;
 }
 
+section > div {
+  border: 1px solid transparent;
+}
+
 section > div:hover {
   border: 1px solid #ffffff;
   border-radius: 9px;
