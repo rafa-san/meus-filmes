@@ -1,4 +1,4 @@
-<h1>Projeto Próprio: Meus Filmes</h1>
+<h1>Meus Filmes</h1>
 
 <p>Aqui a proposta foi bem simples: listar os filmes que tenho em casa (DVDs e Blu-rays) e exibir o conteúdo de três formas diferentes. </p>
 
