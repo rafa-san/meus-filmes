@@ -1,6 +1,6 @@
-var scrollUp = window.pageYOffset;
+var scrollUp = window.scrollY;
 window.onscroll = function() {
-var scrollDown = window.pageYOffset;
+var scrollDown = window.scrollY;
   if (scrollUp > scrollDown) {
     document.querySelector(".menu-lateral").style.display = "block";
   } else {
