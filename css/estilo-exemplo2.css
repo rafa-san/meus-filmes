@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* Estilo geral
 ============ */
 
@@ -16,12 +18,12 @@ body {
 ================ */
 
 header .container {
+  display: flex;
+  justify-content: space-between;
   background-color: #f2f2f2;
   border-bottom: 2px solid #e6e6e6;
-  display: flex;
   font-size: 17px;
   height: 40px;
-  justify-content: space-between;
   letter-spacing: 1px;
   width: 100%;
 }
@@ -127,25 +129,25 @@ button:hover {
 =========================== */
 
 .container-lista > div {
-  background-color: #f2f2f2;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #f2f2f2;
   margin: 0 auto;
   width: 95%;
 }
 
 #itens-lista p {
+  display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
   background-color: #ffffff;
   border: 1px solid transparent;
   border-radius: 4px;
   box-shadow: 0 4px 6px 0 #33333333;
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
   height: 180px;
-  justify-content: center;
   line-height: 1.5;
   margin: 0.5%;
   padding-left: 5px;
@@ -163,10 +165,12 @@ button:hover {
 ============== */
 
 .topo {
+  position: fixed;
+  right: 15px;
+  bottom: 27px;
   background-color: rgba(47, 78, 218, 0.5);
   border: none;
   border-radius: 100%;
-  bottom: 27px;
   box-shadow: 0 5px #999;
   color: #ffffff;
   cursor: pointer;
@@ -174,8 +178,6 @@ button:hover {
   height: 48px;
   margin: 0;
   padding: 0;
-  position: fixed;
-  right: 15px;
   width: 48px;
 }
 

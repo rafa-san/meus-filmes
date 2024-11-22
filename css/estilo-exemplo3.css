@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 /* Estilo geral
 ============ */
 
@@ -18,8 +20,8 @@ body {
 ================ */
 
 header {
-  background-color: #000000;
   display: flex;
+  background-color: #000000;
   font-size: 17px;
   height: 40px;
   letter-spacing: 1px;
@@ -68,26 +70,26 @@ li a:hover {
 ====================== */
 
 aside {
+  position: fixed;
+  top: 43px;
+  right: 0;
   display: flex;
   flex-direction: column;
   height: 422px;
   overflow-y: auto;
-  position: fixed;
-  right: 0;
-  top: 43px;
 }
 
 .menu-lateral {
-  background-color: #333333;
   display: none;
+  background-color: #333333;
   text-align: center;
   width: 4rem;
 }
 
 .menu-lateral a {
+  display: block;
   color: rgb(217, 217, 217);
   cursor: pointer;
-  display: block;
   font-size: 16px;
   padding: 10px 0;
   text-align: center;
@@ -112,10 +114,10 @@ aside {
 }
 
 section {
-  background-color: #1a1a1a;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background-color: #1a1a1a;
   margin: auto;
   padding: 5px 0;
   width: 80%;
@@ -136,9 +138,9 @@ section > div:hover {
 ======================= */
 
 .galeria {
+  position: relative;
   border-radius: 9px;
   margin: 5px;
-  position: relative;
 }
 
 .imagem {
@@ -152,6 +154,8 @@ section > div:hover {
 }
 
 .texto {
+  position: absolute;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.7);
   border-radius: 9px;
   color: white;
@@ -160,9 +164,7 @@ section > div:hover {
   line-height: 1.5;
   opacity: 0;
   padding: 0 2px;
-  position: absolute;
   text-align: center;
-  top: 0;
   transition: .5s ease;
   width: 100%;
 }
@@ -214,8 +216,8 @@ footer {
   }
   
   ul {
-    font-size: 12px;
     justify-content: center;
+    font-size: 12px;
     line-height: 2;
     text-align: center;
     width: 100%;
