@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Filmes - Exemplo 2</title>
+    <link rel="stylesheet" href="css/estilo-exemplo2.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meus Filmes - Exemplo 2</title>
-  <link rel="stylesheet" href="css/estilo-exemplo2.css">
-</head>
+  <body>
+    <header id="seta-topo">
+      <div class="container">
+        <h2 class="logo">Meus Filmes</h2>
+        <nav>
+          <ul>
+            <li><a href="index.html">Exemplo 1</a></li>
+            <li><a class="ativo" href="exemplo2.html">Exemplo 2</a></li>
+            <li><a href="exemplo3.html">Exemplo 3</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-<body>
-  <header id="seta-topo">
-    <div class="container">
-      <h2 class="logo">Meus Filmes</h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">Exemplo 1</a></li>
-          <li><a class="ativo" href="exemplo2.html">Exemplo 2</a></li>
-          <li><a href="exemplo3.html">Exemplo 3</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <a href="#seta-topo"><button class="topo"><i class="fas fa-arrow-up"></i></button></a>
 
-  <a href="#seta-topo"><button class="topo"><i class="fas fa-arrow-up"></i></button></a>
+    <section class="container-dados">
+      <div class="total-encontrado">
+        <h3>Total de Filmes Encontrados:</h3>
+        <p id="total-filmes"></p>
+      </div>
 
-  <section class="container-dados">
-    <div class="total-encontrado">
-      <h3>Total de Filmes Encontrados:</h3>
-      <p id="total-filmes"></p>
-    </div>
+      <div class="total-encontrado">
+        <h3>Total de Diretoras e Diretores Encontrados:</h3>
+        <p id="total-diretores"></p>
+      </div>
+    </section>
 
-    <div class="total-encontrado">
-      <h3>Total de Diretoras e Diretores Encontrados:</h3>
-      <p id="total-diretores"></p>
-    </div>
-  </section>
+    <h3 class="visualizacao">Selecione abaixo a ordem da visualização:</h3>
 
-  <h3 class="visualizacao">Selecione abaixo a ordem da visualização:</h3>
+    <section class="ordem">
+    <button onclick="alfa()">Ordem Alfabética</button>
+    <button onclick="cron()">Ordem Cronológica</button>
+    <button onclick="dire()">Por Diretor(a)</button>
+    </section>
 
-  <section class="ordem">
-  <button onclick="alfa()">Ordem Alfabética</button>
-  <button onclick="cron()">Ordem Cronológica</button>
-  <button onclick="dire()">Por Diretor(a)</button>
-  </section>
+    <section class="container-lista">
+    <div id="itens-lista"></div>
+    </section>
 
-  <section class="container-lista">
-  <div id="itens-lista"></div>
-  </section>
+    <footer>
+      <p>Desenvolvido por: Rafa Santana</p>
+    </footer>
 
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-  <script src="scripts/exemplo2.js"></script>
-  <script src="scripts/exemplo2-diretores.js"></script>
-</body>
-
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+    <script src="scripts/exemplo2.js"></script>
+    <script src="scripts/exemplo2-diretores.js"></script>
+  </body>
 </html>

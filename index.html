@@ -1,1043 +1,1041 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Filmes - Exemplo 1</title>
+    <link rel="stylesheet" href="css/estilo-index.css">
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Meus Filmes - Exemplo 1</title>
-  <link rel="stylesheet" href="css/estilo-index.css">
-</head>
+  <body>
+    <header id="seta-topo">
+      <h2>Meus Filmes</h2>
+        <nav>
+          <ul>
+            <li><a class="ativo" href="index.html">Exemplo 1</a></li>
+            <li><a href="exemplo2.html">Exemplo 2</a></li>
+            <li><a href="exemplo3.html">Exemplo 3</a></li>
+          </ul>
+        </nav>
+    </header>
 
-<body>
-  <header id="seta-topo">
-    <h2>Meus Filmes</h2>
-      <nav>
-        <ul>
-          <li><a class="ativo" href="index.html">Exemplo 1</a></li>
-          <li><a href="exemplo2.html">Exemplo 2</a></li>
-          <li><a href="exemplo3.html">Exemplo 3</a></li>
-        </ul>
-      </nav>
-  </header>
+    <h3>Filmes em ordem alfabética</h3>
 
-  <h3>Filmes em ordem alfabética</h3>
+    <a href="#seta-topo"><button class="topo"><i class="fas fa-arrow-up"></i></button></a>
 
-  <a href="#seta-topo"><button class="topo"><i class="fas fa-arrow-up"></i></button></a>
-
-  <table class="tab-responsiva">
-    <thead>
+    <table class="tab-responsiva">
+      <thead>
+        <tr>
+          <th style="width:40%;">Filme</th>
+          <th style="width:35%;">Direção</th>
+          <th style="width:25%;">Ano de Lançamento</th>
+        </tr>
+      </thead>
+      <tbody>
       <tr>
-        <th style="width:40%;">Filme</th>
-        <th style="width:35%;">Direção</th>
-        <th style="width:25%;">Ano de Lançamento</th>
+        <td>007 Cassino Royale</td>
+        <td>Martin Campbell</td>
+        <td>2006</td>
       </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>007 Cassino Royale</td>
-      <td>Martin Campbell</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>007 Contra Spectre</td>
-      <td>Sam Mendes</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>007 Operação Skyfall</td>
-      <td>Sam Mendes</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>10 Coisas que Eu Odeio em Você</td>
-      <td>Gil Junger</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>300</td>
-      <td>Zack Snyder</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>(500) Dias com Ela</td>
-      <td>Marc Webb</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>Aconteceu Naquela Noite</td>
-      <td>Frank Capra</td>
-      <td>1934</td>
-    </tr>
-    <tr>
-      <td>Adeus, Lenin!</td>
-      <td>Wolfgang Becker</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Agentes do Destino, Os</td>
-      <td>George Nolfi</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <td>Amor à Flor da Pele</td>
-      <td>Wong Kar-Wai</td>
-      <td>2000</td>
-    </tr>
-    <tr>
-      <td>Amor à Tarde</td>
-      <td>Eric Rohmer</td>
-      <td>1972</td>
-    </tr>
-    <tr>
-      <td>Asas do Desejo</td>
-      <td>Wim Wenders</td>
-      <td>1987</td>
-    </tr>
-    <tr>
-      <td>Assassinato de Jesse James pelo Covarde Robert Ford, O</td>
-      <td>Andrew Dominik</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Atômica</td>
-      <td>David Leitch</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Atração Perigosa</td>
-      <td>Ben Affleck</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Auto da Compadecida, O</td>
-      <td>Guel Arraes</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Aventureiros do Bairro Proibido, Os</td>
-      <td>John Carpenter</td>
-      <td>1986</td>
-    </tr>
-    <tr>
-      <td>Bastardos Inglórios</td>
-      <td>Quentin Tarantino</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>Batman Begins</td>
-      <td>Christopher Nolan</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Batman Vs. Superman: A Origem da Justiça</td>
-      <td>Zack Snyder</td>
-      <td>2016</td>
-    </tr>
-    <tr>
-      <td>Batman: O Cavaleiro das Trevas</td>
-      <td>Christopher Nolan</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>Batman: O Cavaleiro das Trevas Ressurge</td>
-      <td>Christopher Nolan</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>Beleza Americana</td>
-      <td>Sam Mendes</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Brilho Eterno de uma Mente sem Lembranças</td>
-      <td>Michel Gondry</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Caçadores de Emoção</td>
-      <td>Kathryn Bigelow</td>
-      <td>1991</td>
-    </tr>
-    <tr>
-      <td>Candy</td>
-      <td>Neil Armfield</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Cantando na Chuva</td>
-      <td>Stanley Donen, Gene Kelly</td>
-      <td>1952</td>
-    </tr>
-    <tr>
-      <td>Cão de Briga</td>
-      <td>Louis Leterrier</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Capitão América: Guerra Civil</td>
-      <td>Anthony Russo, Joe Russo</td>
-      <td>2016</td>
-    </tr>
-    <tr>
-      <td>Capitão América: O Primeiro Vingador</td>
-      <td>Joe Johnston</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <td>Capitão América: O Soldado Invernal</td>
-      <td>Anthony Russo, Joe Russo</td>
-      <td>2014</td>
-    </tr>
-    <tr>
-      <td>Casablanca</td>
-      <td>Michael Curtiz</td>
-      <td>1942</td>
-    </tr>
-    <tr>
-      <td>Chamas da Vingança</td>
-      <td>Tony Scott</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Cisne Negro</td>
-      <td>Darren Aronofsky</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Closer</td>
-      <td>Mike Nichols</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Clube da Luta</td>
-      <td>David Fincher</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Colateral</td>
-      <td>Michael Mann</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Como Treinar o Seu Dragão</td>
-      <td>Dean DeBlois, Chris Sanders</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Coração de Cavaleiro</td>
-      <td>Brian Helgeland</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Coração Valente</td>
-      <td>Mel Gibson</td>
-      <td>1995</td>
-    </tr>
-    <tr>
-      <td>Corra!</td>
-      <td>Jordan Peele</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Corte, O</td>
-      <td>Costa-Gavras</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Curtindo a Vida Adoidado</td>
-      <td>John Hughes</td>
-      <td>1986</td>
-    </tr>
-    <tr>
-      <td>Dança Com Lobos</td>
-      <td>Kevin Costner</td>
-      <td>1990</td>
-    </tr>
-    <tr>
-      <td>De Olhos Bem Fechados</td>
-      <td>Stanley Kubrick</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>De Volta para o Furuto II</td>
-      <td>Robert Zemeckis</td>
-      <td>1989</td>
-    </tr>
-    <tr>
-      <td>De Volta para o Futuro</td>
-      <td>Robert Zemeckis</td>
-      <td>1985</td>
-    </tr>
-    <tr>
-      <td>De Volta para o Futuro III</td>
-      <td>Robert Zemeckis</td>
-      <td>1990</td>
-    </tr>
-    <tr>
-      <td>Deadpool</td>
-      <td>Tim Miller</td>
-      <td>2016</td>
-    </tr>
-    <tr>
-      <td>Deadpool 2</td>
-      <td>David Leitch</td>
-      <td>2018</td>
-    </tr>
-    <tr>
-      <td>Desejo e Reparação</td>
-      <td>Joe Wright</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Dia de Treinamento</td>
-      <td>Antoine Fuqua</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Diários de Motocicleta</td>
-      <td>Walter Salles</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Divertida Mente</td>
-      <td>Pete Docter, Ronaldo Del Carmen</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>Django</td>
-      <td>Quentin Tarantino</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>Doce Vida, A</td>
-      <td>Federico Fellini</td>
-      <td>1960</td>
-    </tr>
-    <tr>
-      <td>Doutor Estranho</td>
-      <td>Scott Derrickson</td>
-      <td>2016</td>
-    </tr>
-    <tr>
-      <td>Doze Homens e Outro Segredo</td>
-      <td>Steven Soderbergh</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>E aí, Meu Irmão, Cadê Você?</td>
-      <td>Joel Coen, Ethan Coen</td>
-      <td>2000</td>
-    </tr>
-    <tr>
-      <td>Edukators</td>
-      <td>Hans Weingartner</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Efeito Borboleta</td>
-      <td>Eric Bress, J. Mackye Gruber</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Encontros e Desencontros</td>
-      <td>Sofia Coppola</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Escola de Rock</td>
-      <td>Richard Linklater</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Estranho no Ninho, Um</td>
-      <td>Milos Forman</td>
-      <td>1975</td>
-    </tr>
-    <tr>
-      <td>Eu Sou a Lenda</td>
-      <td>Francis Lawrence</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Eu, Tonya</td>
-      <td>Craig Gillespie</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Fabuloso Destino de Amélie Poulain, O</td>
-      <td>Jean-Pierre Jeunet</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Fahrenheit 451</td>
-      <td>François Truffaut</td>
-      <td>1966</td>
-    </tr>
-    <tr>
-      <td>Falcão Negro em Perigo</td>
-      <td>Ridley Scott</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Fargo</td>
-      <td>Joel Coen, Ethan Coen</td>
-      <td>1996</td>
-    </tr>
-    <tr>
-      <td>Feitiço do Tempo</td>
-      <td>Harold Ramis</td>
-      <td>1993</td>
-    </tr>
-    <tr>
-      <td>Fitzcarraldo</td>
-      <td>Werner Herzog</td>
-      <td>1982</td>
-    </tr>
-    <tr>
-      <td>Fogo Contra Fogo</td>
-      <td>Michael Mann</td>
-      <td>1995</td>
-    </tr>
-    <tr>
-      <td>Gladiador</td>
-      <td>Ridley Scott</td>
-      <td>2000</td>
-    </tr>
-    <tr>
-      <td>Grande Truque, O</td>
-      <td>Christopher Nolan</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>Gravidade</td>
-      <td>Alfonso Cuarón</td>
-      <td>2013</td>
-    </tr>
-    <tr>
-      <td>Guardiões da Galáxia</td>
-      <td>James Gunn</td>
-      <td>2014</td>
-    </tr>
-    <tr>
-      <td>Guardiões da Galáxia Vol. 2</td>
-      <td>James Gunn</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Guerra ao Terror</td>
-      <td>Kathryn Bigelow</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>Guia do Mochileiro das Galáxias, O</td>
-      <td>Garth Jennings</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Homem de Aço, O</td>
-      <td>Zack Snyder</td>
-      <td>2013</td>
-    </tr>
-    <tr>
-      <td>Homem de Ferro</td>
-      <td>Jon Favreau</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>Homem de Ferro 2</td>
-      <td>Jon Favreau</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Homem de Ferro 3</td>
-      <td>Shane Black</td>
-      <td>2013</td>
-    </tr>
-    <tr>
-      <td>Homem-Aranha: De Volta ao Lar</td>
-      <td>Jon Watts</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Homem-Formiga</td>
-      <td>Peyton Reed</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>Honra & Coragem – As Quatro Plumas</td>
-      <td>Shekhar Kapur</td>
-      <td>2002</td>
-    </tr>
-    <tr>
-      <td>Identidade Bourne, A</td>
-      <td>Doug Liman</td>
-      <td>2002</td>
-    </tr>
-    <tr>
-      <td>Ilha do Medo</td>
-      <td>Martin Scorsese</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>Iluminado, O</td>
-      <td>Stanley Kubrick</td>
-      <td>1980</td>
-    </tr>
-    <tr>
-      <td>Imperdoáveis, Os</td>
-      <td>Clint Eastwood</td>
-      <td>1992</td>
-    </tr>
-    <tr>
-      <td>Incompreendidos, Os</td>
-      <td>François Truffaut</td>
-      <td>1959</td>
-    </tr>
-    <tr>
-      <td>Incríveis, Os</td>
-      <td>Brad Bird</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Infiltrados, Os</td>
-      <td>Martin Scorsese</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>Inimigos Públicos</td>
-      <td>Michael Mann</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>Intocáveis</td>
-      <td>Olivier Nakache, Eric Toledano</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <td>Jardineiro Fiel, O</td>
-      <td>Fernando Meirelles</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>John Wick 3: Parabellum</td>
-      <td>Chad Stahelski</td>
-      <td>2019</td>
-    </tr>
-    <tr>
-      <td>John Wick: De Volta ao Jogo</td>
-      <td>Chad Stahelski, David Leitch</td>
-      <td>2014</td>
-    </tr>
-    <tr>
-      <td>John Wick: Um Novo Dia Para Matar</td>
-      <td>Chad Stahelski</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Johnny & June</td>
-      <td>James Mangold</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Jojo Rabbit</td>
-      <td>Taika Waititi</td>
-      <td>2019</td>
-    </tr>
-    <tr>
-      <td>Juno</td>
-      <td>Jason Reitman</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Kick-Ass: Quebrando Tudo</td>
-      <td>Matthew Vaughn</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Kill Bill: Volume 1</td>
-      <td>Quentin Tarantino</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Kill Bill: Volume 2</td>
-      <td>Quentin Tarantino</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Kingsman: Serviço Secreto</td>
-      <td>Matthew Vaughn</td>
-      <td>2014</td>
-    </tr>
-    <tr>
-      <td>La La Land – Cantando Estações</td>
-      <td>Damien Chazelle</td>
-      <td>2016</td>
-    </tr>
-    <tr>
-      <td>Labirinto do Fauno, O</td>
-      <td>Guilhermo del Toro</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>Lembranças</td>
-      <td>Allen Coulter</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Liga da Justiça</td>
-      <td>Zack Snyder</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Logan</td>
-      <td>James Mangold</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Lugar Chamado Notting Hill, Um</td>
-      <td>Roger Mitchell</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Lugar Silencioso, Um</td>
-      <td>John Krasinski</td>
-      <td>2018</td>
-    </tr>
-    <tr>
-      <td>Mad Max: Estrada da Fúria</td>
-      <td>George Miller</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>Matrix</td>
-      <td>Lana Wachowski, Lilly Wachowski</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Matrix Reloaded</td>
-      <td>Lana Wachowski, Lilly Wachowski</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Matrix Revolution</td>
-      <td>Lana Wachowski, Lilly Wachowski</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Menina de Ouro</td>
-      <td>Clint Eastwood</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Mensagem para Você</td>
-      <td>Nora Ephron</td>
-      <td>1998</td>
-    </tr>
-    <tr>
-      <td>Miami Vice</td>
-      <td>Michael Mann</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>Monstros S.A.</td>
-      <td>Pete Docter, David Silverman, Lee Unkrich</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Morangos Silvestres</td>
-      <td>Ingmar Bergman</td>
-      <td>1957</td>
-    </tr>
-    <tr>
-      <td>Moulin Rouge: Amor em Vermelho</td>
-      <td>Baz Luhrmann</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Mulher-Maravilha</td>
-      <td>Patty Jenkins</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Na Mira do Chefe</td>
-      <td>Martin McDonagh</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>Na Natureza Selvagem</td>
-      <td>Sean Penn</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Não Estou Lá</td>
-      <td>Todd Haynes</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Noite Americana, A</td>
-      <td>François Truffaut</td>
-      <td>1973</td>
-    </tr>
-    <tr>
-      <td>Obrigado por Fumar</td>
-      <td>Jason Reitman</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Onde os Fracos Não Têm Vez</td>
-      <td>Joel Coen, Ethan Coen</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Onze Homens e um Segredo</td>
-      <td>Steven Soderbergh</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Orgulho e Preconceito</td>
-      <td>Joe Wright</td>
-      <td>2005</td>
-    </tr>
-    <tr>
-      <td>Origem, A</td>
-      <td>Christopher Nolan</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Pacificador, O</td>
-      <td>Mimi Leder</td>
-      <td>1997</td>
-    </tr>
-    <tr>
-      <td>Pantera Negra</td>
-      <td>Ryan Coogler</td>
-      <td>2018</td>
-    </tr>
-    <tr>
-      <td>Parto de Viagem, Um</td>
-      <td>Todd Phillips</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Pequena Miss Sunshine</td>
-      <td>Jonathan Dayton, Valerie Faris</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>Piratas do Caribe 2: O Baú da Morte</td>
-      <td>Gore Verbinski</td>
-      <td>2006</td>
-    </tr>
-    <tr>
-      <td>Piratas do Caribe: A Maldição do Pérola Negra</td>
-      <td>Gore Verbinski</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Procurando Nemo</td>
-      <td>Andrew Stanton</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Protegendo o Inimigo</td>
-      <td>Daniel Espinosa</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>Pulp Fiction: Tempo de Violência</td>
-      <td>Quentin Tarantino</td>
-      <td>1994</td>
-    </tr>
-    <tr>
-      <td>Quarto do Pânico, O</td>
-      <td>David Fincher</td>
-      <td>2002</td>
-    </tr>
-    <tr>
-      <td>Quase Famosos</td>
-      <td>Cameron Crowe</td>
-      <td>2000</td>
-    </tr>
-    <tr>
-      <td>Quicksilver – O Prazer de Ganhar</td>
-      <td>Tom Donnelly</td>
-      <td>1986</td>
-    </tr>
-    <tr>
-      <td>Rambo 2: A Missão</td>
-      <td>George Pan Cosmatos</td>
-      <td>1985</td>
-    </tr>
-    <tr>
-      <td>Rambo 3</td>
-      <td>Peter MacDonald</td>
-      <td>1988</td>
-    </tr>
-    <tr>
-      <td>Rambo: Programado para Matar</td>
-      <td>Ted Kotcheff</td>
-      <td>1982</td>
-    </tr>
-    <tr>
-      <td>Rango</td>
-      <td>Gore Verbinski</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <td>Regresso, O</td>
-      <td>Alejandro Gonzáles Iñárritu</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>Rei Arthur: A Lenda da Espada</td>
-      <td>Guy Ritchie</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Resgate</td>
-      <td>Sam Hargrave</td>
-      <td>2020</td>
-    </tr>
-    <tr>
-      <td>Rogue One: Uma História Star Wars</td>
-      <td>Gareth Edwards</td>
-      <td>2016</td>
-    </tr>
-    <tr>
-      <td>Romance</td>
-      <td>Guel Arraes</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>Romeu e Julieta</td>
-      <td>Baz Luhrmann</td>
-      <td>1996</td>
-    </tr>
-    <tr>
-      <td>Scott Pilgrim Contra o Mundo</td>
-      <td>Edgar Wright</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Senhor dos Anéis: A Sociedade do Anel, O</td>
-      <td>Peter Jackson</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Senhor dos Anéis: As Duas Torres, O</td>
-      <td>Peter Jackson</td>
-      <td>2002</td>
-    </tr>
-    <tr>
-      <td>Senhor dos Anéis: O Retorno do Rei, O</td>
-      <td>Peter Jackson</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Seven: Os 7 Crimes Capitais</td>
-      <td>David Fincher</td>
-      <td>1995</td>
-    </tr>
-    <tr>
-      <td>Sexto Sentido, O</td>
-      <td>M. Night Shyamalan</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Shame</td>
-      <td>Steve McQueen</td>
-      <td>2011</td>
-    </tr>
-    <tr>
-      <td>Shrek</td>
-      <td>Andrew Adamson, Vicky Jenson</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Shrek 2</td>
-      <td>Andrew Adamson, Kelly Asbury, Conrad Vernon</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Simpsons – O Filme, Os</td>
-      <td>David Silverman</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Snatch: Porcos e Diamantes</td>
-      <td>Guy Ritchie</td>
-      <td>2000</td>
-    </tr>
-    <tr>
-      <td>Sobre Meninos e Lobos</td>
-      <td>Clint Eastwood</td>
-      <td>2003</td>
-    </tr>
-    <tr>
-      <td>Sonho de Liberdade, Um</td>
-      <td>Frank Darabont</td>
-      <td>1994</td>
-    </tr>
-    <tr>
-      <td>Spirit: O Corcel Indomável</td>
-      <td>Lorna Cook, Kelly Asbury</td>
-      <td>2002</td>
-    </tr>
-    <tr>
-      <td>Star Wars Episódio IX: A Ascensão Skywalker</td>
-      <td>J. J. Abrams</td>
-      <td>2019</td>
-    </tr>
-    <tr>
-      <td>Star Wars Episódio VII: O Despertar da Força</td>
-      <td>J. J. Abrams</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>Star Wars Episódio VIII: Os Últimos Jedi</td>
-      <td>Rian Johnson</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Supremacia Bourne, A</td>
-      <td>Paul Greengrass</td>
-      <td>2004</td>
-    </tr>
-    <tr>
-      <td>Ted</td>
-      <td>Seth MacFarlane</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>Thor Ragnarok</td>
-      <td>Taika Waititi</td>
-      <td>2017</td>
-    </tr>
-    <tr>
-      <td>Toy Story</td>
-      <td>John Lasseter</td>
-      <td>1995</td>
-    </tr>
-    <tr>
-      <td>Toy Story 2</td>
-      <td>John Lasseter, Lee Unkrich, Ash Brannon</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Toy Story 3</td>
-      <td>Lee Unkrich</td>
-      <td>2010</td>
-    </tr>
-    <tr>
-      <td>Toy Story 4</td>
-      <td>Josh Cooley</td>
-      <td>2019</td>
-    </tr>
-    <tr>
-      <td>Trainspotting: Sem Limites</td>
-      <td>Danny Boyle</td>
-      <td>1996</td>
-    </tr>
-    <tr>
-      <td>Transformers</td>
-      <td>Michael Bay</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Três Reis</td>
-      <td>David O. Russell</td>
-      <td>1999</td>
-    </tr>
-    <tr>
-      <td>Trovão Tropical</td>
-      <td>Ben Stiller</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>True Lies</td>
-      <td>James Cameron</td>
-      <td>1994</td>
-    </tr>
-    <tr>
-      <td>Ultimato Bourne, O</td>
-      <td>Paul Greengrass</td>
-      <td>2007</td>
-    </tr>
-    <tr>
-      <td>Último dos Moicanos, O</td>
-      <td>Michael Mann</td>
-      <td>1992</td>
-    </tr>
-    <tr>
-      <td>Último Tango em Paris</td>
-      <td>Bernardo Bertolucci</td>
-      <td>1972</td>
-    </tr>
-    <tr>
-      <td>Up: Altas Aventuras</td>
-      <td>Pete Docter</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>Valente</td>
-      <td>Mark Andrews, Brenda Chapman</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>Viagem à Lua</td>
-      <td>Georges Méliès</td>
-      <td>1902</td>
-    </tr>
-    <tr>
-      <td>Viagem de Chihiro, A</td>
-      <td>Hayao Miyazaki</td>
-      <td>2001</td>
-    </tr>
-    <tr>
-      <td>Vingadores - The Avengers, Os</td>
-      <td>Joss Whedon</td>
-      <td>2012</td>
-    </tr>
-    <tr>
-      <td>Vingadores: Era de Ultron</td>
-      <td>Joss Whedon</td>
-      <td>2015</td>
-    </tr>
-    <tr>
-      <td>Vingadores: Guerra Infinita</td>
-      <td>Anthony Russo, Joe Russo</td>
-      <td>2018</td>
-    </tr>
-    <tr>
-      <td>Vingadores: Ultimato</td>
-      <td>Anthony Russo, Joe Russo</td>
-      <td>2019</td>
-    </tr>
-    <tr>
-      <td>Wall-E</td>
-      <td>Andrew Stanton</td>
-      <td>2008</td>
-    </tr>
-    <tr>
-      <td>Watchmen: O Filme</td>
-      <td>Zack Snyder</td>
-      <td>2009</td>
-    </tr>
-    <tr>
-      <td>Wolverine: Imortal</td>
-      <td>James Mangold</td>
-      <td>2013</td>
-    </tr>
-    </tbody>
-  </table>
+      <tr>
+        <td>007 Contra Spectre</td>
+        <td>Sam Mendes</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>007 Operação Skyfall</td>
+        <td>Sam Mendes</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>10 Coisas que Eu Odeio em Você</td>
+        <td>Gil Junger</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>300</td>
+        <td>Zack Snyder</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>(500) Dias com Ela</td>
+        <td>Marc Webb</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>Aconteceu Naquela Noite</td>
+        <td>Frank Capra</td>
+        <td>1934</td>
+      </tr>
+      <tr>
+        <td>Adeus, Lenin!</td>
+        <td>Wolfgang Becker</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Agentes do Destino, Os</td>
+        <td>George Nolfi</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Amor à Flor da Pele</td>
+        <td>Wong Kar-Wai</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Amor à Tarde</td>
+        <td>Eric Rohmer</td>
+        <td>1972</td>
+      </tr>
+      <tr>
+        <td>Asas do Desejo</td>
+        <td>Wim Wenders</td>
+        <td>1987</td>
+      </tr>
+      <tr>
+        <td>Assassinato de Jesse James pelo Covarde Robert Ford, O</td>
+        <td>Andrew Dominik</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Atômica</td>
+        <td>David Leitch</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Atração Perigosa</td>
+        <td>Ben Affleck</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Auto da Compadecida, O</td>
+        <td>Guel Arraes</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Aventureiros do Bairro Proibido, Os</td>
+        <td>John Carpenter</td>
+        <td>1986</td>
+      </tr>
+      <tr>
+        <td>Bastardos Inglórios</td>
+        <td>Quentin Tarantino</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>Batman Begins</td>
+        <td>Christopher Nolan</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Batman Vs. Superman: A Origem da Justiça</td>
+        <td>Zack Snyder</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>Batman: O Cavaleiro das Trevas</td>
+        <td>Christopher Nolan</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>Batman: O Cavaleiro das Trevas Ressurge</td>
+        <td>Christopher Nolan</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Beleza Americana</td>
+        <td>Sam Mendes</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Brilho Eterno de uma Mente sem Lembranças</td>
+        <td>Michel Gondry</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Caçadores de Emoção</td>
+        <td>Kathryn Bigelow</td>
+        <td>1991</td>
+      </tr>
+      <tr>
+        <td>Candy</td>
+        <td>Neil Armfield</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Cantando na Chuva</td>
+        <td>Stanley Donen, Gene Kelly</td>
+        <td>1952</td>
+      </tr>
+      <tr>
+        <td>Cão de Briga</td>
+        <td>Louis Leterrier</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Capitão América: Guerra Civil</td>
+        <td>Anthony Russo, Joe Russo</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>Capitão América: O Primeiro Vingador</td>
+        <td>Joe Johnston</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Capitão América: O Soldado Invernal</td>
+        <td>Anthony Russo, Joe Russo</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>Casablanca</td>
+        <td>Michael Curtiz</td>
+        <td>1942</td>
+      </tr>
+      <tr>
+        <td>Chamas da Vingança</td>
+        <td>Tony Scott</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Cisne Negro</td>
+        <td>Darren Aronofsky</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Closer</td>
+        <td>Mike Nichols</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Clube da Luta</td>
+        <td>David Fincher</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Colateral</td>
+        <td>Michael Mann</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Como Treinar o Seu Dragão</td>
+        <td>Dean DeBlois, Chris Sanders</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Coração de Cavaleiro</td>
+        <td>Brian Helgeland</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Coração Valente</td>
+        <td>Mel Gibson</td>
+        <td>1995</td>
+      </tr>
+      <tr>
+        <td>Corra!</td>
+        <td>Jordan Peele</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Corte, O</td>
+        <td>Costa-Gavras</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Curtindo a Vida Adoidado</td>
+        <td>John Hughes</td>
+        <td>1986</td>
+      </tr>
+      <tr>
+        <td>Dança Com Lobos</td>
+        <td>Kevin Costner</td>
+        <td>1990</td>
+      </tr>
+      <tr>
+        <td>De Olhos Bem Fechados</td>
+        <td>Stanley Kubrick</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>De Volta para o Furuto II</td>
+        <td>Robert Zemeckis</td>
+        <td>1989</td>
+      </tr>
+      <tr>
+        <td>De Volta para o Futuro</td>
+        <td>Robert Zemeckis</td>
+        <td>1985</td>
+      </tr>
+      <tr>
+        <td>De Volta para o Futuro III</td>
+        <td>Robert Zemeckis</td>
+        <td>1990</td>
+      </tr>
+      <tr>
+        <td>Deadpool</td>
+        <td>Tim Miller</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>Deadpool 2</td>
+        <td>David Leitch</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Desejo e Reparação</td>
+        <td>Joe Wright</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Dia de Treinamento</td>
+        <td>Antoine Fuqua</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Diários de Motocicleta</td>
+        <td>Walter Salles</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Divertida Mente</td>
+        <td>Pete Docter, Ronaldo Del Carmen</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Django</td>
+        <td>Quentin Tarantino</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Doce Vida, A</td>
+        <td>Federico Fellini</td>
+        <td>1960</td>
+      </tr>
+      <tr>
+        <td>Doutor Estranho</td>
+        <td>Scott Derrickson</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>Doze Homens e Outro Segredo</td>
+        <td>Steven Soderbergh</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>E aí, Meu Irmão, Cadê Você?</td>
+        <td>Joel Coen, Ethan Coen</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Edukators</td>
+        <td>Hans Weingartner</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Efeito Borboleta</td>
+        <td>Eric Bress, J. Mackye Gruber</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Encontros e Desencontros</td>
+        <td>Sofia Coppola</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Escola de Rock</td>
+        <td>Richard Linklater</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Estranho no Ninho, Um</td>
+        <td>Milos Forman</td>
+        <td>1975</td>
+      </tr>
+      <tr>
+        <td>Eu Sou a Lenda</td>
+        <td>Francis Lawrence</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Eu, Tonya</td>
+        <td>Craig Gillespie</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Fabuloso Destino de Amélie Poulain, O</td>
+        <td>Jean-Pierre Jeunet</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Fahrenheit 451</td>
+        <td>François Truffaut</td>
+        <td>1966</td>
+      </tr>
+      <tr>
+        <td>Falcão Negro em Perigo</td>
+        <td>Ridley Scott</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Fargo</td>
+        <td>Joel Coen, Ethan Coen</td>
+        <td>1996</td>
+      </tr>
+      <tr>
+        <td>Feitiço do Tempo</td>
+        <td>Harold Ramis</td>
+        <td>1993</td>
+      </tr>
+      <tr>
+        <td>Fitzcarraldo</td>
+        <td>Werner Herzog</td>
+        <td>1982</td>
+      </tr>
+      <tr>
+        <td>Fogo Contra Fogo</td>
+        <td>Michael Mann</td>
+        <td>1995</td>
+      </tr>
+      <tr>
+        <td>Gladiador</td>
+        <td>Ridley Scott</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Grande Truque, O</td>
+        <td>Christopher Nolan</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>Gravidade</td>
+        <td>Alfonso Cuarón</td>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <td>Guardiões da Galáxia</td>
+        <td>James Gunn</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>Guardiões da Galáxia Vol. 2</td>
+        <td>James Gunn</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Guerra ao Terror</td>
+        <td>Kathryn Bigelow</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>Guia do Mochileiro das Galáxias, O</td>
+        <td>Garth Jennings</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Homem de Aço, O</td>
+        <td>Zack Snyder</td>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <td>Homem de Ferro</td>
+        <td>Jon Favreau</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>Homem de Ferro 2</td>
+        <td>Jon Favreau</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Homem de Ferro 3</td>
+        <td>Shane Black</td>
+        <td>2013</td>
+      </tr>
+      <tr>
+        <td>Homem-Aranha: De Volta ao Lar</td>
+        <td>Jon Watts</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Homem-Formiga</td>
+        <td>Peyton Reed</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Honra & Coragem – As Quatro Plumas</td>
+        <td>Shekhar Kapur</td>
+        <td>2002</td>
+      </tr>
+      <tr>
+        <td>Identidade Bourne, A</td>
+        <td>Doug Liman</td>
+        <td>2002</td>
+      </tr>
+      <tr>
+        <td>Ilha do Medo</td>
+        <td>Martin Scorsese</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>Iluminado, O</td>
+        <td>Stanley Kubrick</td>
+        <td>1980</td>
+      </tr>
+      <tr>
+        <td>Imperdoáveis, Os</td>
+        <td>Clint Eastwood</td>
+        <td>1992</td>
+      </tr>
+      <tr>
+        <td>Incompreendidos, Os</td>
+        <td>François Truffaut</td>
+        <td>1959</td>
+      </tr>
+      <tr>
+        <td>Incríveis, Os</td>
+        <td>Brad Bird</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Infiltrados, Os</td>
+        <td>Martin Scorsese</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>Inimigos Públicos</td>
+        <td>Michael Mann</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>Intocáveis</td>
+        <td>Olivier Nakache, Eric Toledano</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Jardineiro Fiel, O</td>
+        <td>Fernando Meirelles</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>John Wick 3: Parabellum</td>
+        <td>Chad Stahelski</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>John Wick: De Volta ao Jogo</td>
+        <td>Chad Stahelski, David Leitch</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>John Wick: Um Novo Dia Para Matar</td>
+        <td>Chad Stahelski</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Johnny & June</td>
+        <td>James Mangold</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Jojo Rabbit</td>
+        <td>Taika Waititi</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>Juno</td>
+        <td>Jason Reitman</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Kick-Ass: Quebrando Tudo</td>
+        <td>Matthew Vaughn</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Kill Bill: Volume 1</td>
+        <td>Quentin Tarantino</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Kill Bill: Volume 2</td>
+        <td>Quentin Tarantino</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Kingsman: Serviço Secreto</td>
+        <td>Matthew Vaughn</td>
+        <td>2014</td>
+      </tr>
+      <tr>
+        <td>La La Land – Cantando Estações</td>
+        <td>Damien Chazelle</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>Labirinto do Fauno, O</td>
+        <td>Guilhermo del Toro</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>Lembranças</td>
+        <td>Allen Coulter</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Liga da Justiça</td>
+        <td>Zack Snyder</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Logan</td>
+        <td>James Mangold</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Lugar Chamado Notting Hill, Um</td>
+        <td>Roger Mitchell</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Lugar Silencioso, Um</td>
+        <td>John Krasinski</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Mad Max: Estrada da Fúria</td>
+        <td>George Miller</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Matrix</td>
+        <td>Lana Wachowski, Lilly Wachowski</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Matrix Reloaded</td>
+        <td>Lana Wachowski, Lilly Wachowski</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Matrix Revolution</td>
+        <td>Lana Wachowski, Lilly Wachowski</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Menina de Ouro</td>
+        <td>Clint Eastwood</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Mensagem para Você</td>
+        <td>Nora Ephron</td>
+        <td>1998</td>
+      </tr>
+      <tr>
+        <td>Miami Vice</td>
+        <td>Michael Mann</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>Monstros S.A.</td>
+        <td>Pete Docter, David Silverman, Lee Unkrich</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Morangos Silvestres</td>
+        <td>Ingmar Bergman</td>
+        <td>1957</td>
+      </tr>
+      <tr>
+        <td>Moulin Rouge: Amor em Vermelho</td>
+        <td>Baz Luhrmann</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Mulher-Maravilha</td>
+        <td>Patty Jenkins</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Na Mira do Chefe</td>
+        <td>Martin McDonagh</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>Na Natureza Selvagem</td>
+        <td>Sean Penn</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Não Estou Lá</td>
+        <td>Todd Haynes</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Noite Americana, A</td>
+        <td>François Truffaut</td>
+        <td>1973</td>
+      </tr>
+      <tr>
+        <td>Obrigado por Fumar</td>
+        <td>Jason Reitman</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Onde os Fracos Não Têm Vez</td>
+        <td>Joel Coen, Ethan Coen</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Onze Homens e um Segredo</td>
+        <td>Steven Soderbergh</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Orgulho e Preconceito</td>
+        <td>Joe Wright</td>
+        <td>2005</td>
+      </tr>
+      <tr>
+        <td>Origem, A</td>
+        <td>Christopher Nolan</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Pacificador, O</td>
+        <td>Mimi Leder</td>
+        <td>1997</td>
+      </tr>
+      <tr>
+        <td>Pantera Negra</td>
+        <td>Ryan Coogler</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Parto de Viagem, Um</td>
+        <td>Todd Phillips</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Pequena Miss Sunshine</td>
+        <td>Jonathan Dayton, Valerie Faris</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>Piratas do Caribe 2: O Baú da Morte</td>
+        <td>Gore Verbinski</td>
+        <td>2006</td>
+      </tr>
+      <tr>
+        <td>Piratas do Caribe: A Maldição do Pérola Negra</td>
+        <td>Gore Verbinski</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Procurando Nemo</td>
+        <td>Andrew Stanton</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Protegendo o Inimigo</td>
+        <td>Daniel Espinosa</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Pulp Fiction: Tempo de Violência</td>
+        <td>Quentin Tarantino</td>
+        <td>1994</td>
+      </tr>
+      <tr>
+        <td>Quarto do Pânico, O</td>
+        <td>David Fincher</td>
+        <td>2002</td>
+      </tr>
+      <tr>
+        <td>Quase Famosos</td>
+        <td>Cameron Crowe</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Quicksilver – O Prazer de Ganhar</td>
+        <td>Tom Donnelly</td>
+        <td>1986</td>
+      </tr>
+      <tr>
+        <td>Rambo 2: A Missão</td>
+        <td>George Pan Cosmatos</td>
+        <td>1985</td>
+      </tr>
+      <tr>
+        <td>Rambo 3</td>
+        <td>Peter MacDonald</td>
+        <td>1988</td>
+      </tr>
+      <tr>
+        <td>Rambo: Programado para Matar</td>
+        <td>Ted Kotcheff</td>
+        <td>1982</td>
+      </tr>
+      <tr>
+        <td>Rango</td>
+        <td>Gore Verbinski</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Regresso, O</td>
+        <td>Alejandro Gonzáles Iñárritu</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Rei Arthur: A Lenda da Espada</td>
+        <td>Guy Ritchie</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Resgate</td>
+        <td>Sam Hargrave</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td>Rogue One: Uma História Star Wars</td>
+        <td>Gareth Edwards</td>
+        <td>2016</td>
+      </tr>
+      <tr>
+        <td>Romance</td>
+        <td>Guel Arraes</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>Romeu e Julieta</td>
+        <td>Baz Luhrmann</td>
+        <td>1996</td>
+      </tr>
+      <tr>
+        <td>Scott Pilgrim Contra o Mundo</td>
+        <td>Edgar Wright</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Senhor dos Anéis: A Sociedade do Anel, O</td>
+        <td>Peter Jackson</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Senhor dos Anéis: As Duas Torres, O</td>
+        <td>Peter Jackson</td>
+        <td>2002</td>
+      </tr>
+      <tr>
+        <td>Senhor dos Anéis: O Retorno do Rei, O</td>
+        <td>Peter Jackson</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Seven: Os 7 Crimes Capitais</td>
+        <td>David Fincher</td>
+        <td>1995</td>
+      </tr>
+      <tr>
+        <td>Sexto Sentido, O</td>
+        <td>M. Night Shyamalan</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Shame</td>
+        <td>Steve McQueen</td>
+        <td>2011</td>
+      </tr>
+      <tr>
+        <td>Shrek</td>
+        <td>Andrew Adamson, Vicky Jenson</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Shrek 2</td>
+        <td>Andrew Adamson, Kelly Asbury, Conrad Vernon</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Simpsons – O Filme, Os</td>
+        <td>David Silverman</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Snatch: Porcos e Diamantes</td>
+        <td>Guy Ritchie</td>
+        <td>2000</td>
+      </tr>
+      <tr>
+        <td>Sobre Meninos e Lobos</td>
+        <td>Clint Eastwood</td>
+        <td>2003</td>
+      </tr>
+      <tr>
+        <td>Sonho de Liberdade, Um</td>
+        <td>Frank Darabont</td>
+        <td>1994</td>
+      </tr>
+      <tr>
+        <td>Spirit: O Corcel Indomável</td>
+        <td>Lorna Cook, Kelly Asbury</td>
+        <td>2002</td>
+      </tr>
+      <tr>
+        <td>Star Wars Episódio IX: A Ascensão Skywalker</td>
+        <td>J. J. Abrams</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>Star Wars Episódio VII: O Despertar da Força</td>
+        <td>J. J. Abrams</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Star Wars Episódio VIII: Os Últimos Jedi</td>
+        <td>Rian Johnson</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Supremacia Bourne, A</td>
+        <td>Paul Greengrass</td>
+        <td>2004</td>
+      </tr>
+      <tr>
+        <td>Ted</td>
+        <td>Seth MacFarlane</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Thor Ragnarok</td>
+        <td>Taika Waititi</td>
+        <td>2017</td>
+      </tr>
+      <tr>
+        <td>Toy Story</td>
+        <td>John Lasseter</td>
+        <td>1995</td>
+      </tr>
+      <tr>
+        <td>Toy Story 2</td>
+        <td>John Lasseter, Lee Unkrich, Ash Brannon</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Toy Story 3</td>
+        <td>Lee Unkrich</td>
+        <td>2010</td>
+      </tr>
+      <tr>
+        <td>Toy Story 4</td>
+        <td>Josh Cooley</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>Trainspotting: Sem Limites</td>
+        <td>Danny Boyle</td>
+        <td>1996</td>
+      </tr>
+      <tr>
+        <td>Transformers</td>
+        <td>Michael Bay</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Três Reis</td>
+        <td>David O. Russell</td>
+        <td>1999</td>
+      </tr>
+      <tr>
+        <td>Trovão Tropical</td>
+        <td>Ben Stiller</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>True Lies</td>
+        <td>James Cameron</td>
+        <td>1994</td>
+      </tr>
+      <tr>
+        <td>Ultimato Bourne, O</td>
+        <td>Paul Greengrass</td>
+        <td>2007</td>
+      </tr>
+      <tr>
+        <td>Último dos Moicanos, O</td>
+        <td>Michael Mann</td>
+        <td>1992</td>
+      </tr>
+      <tr>
+        <td>Último Tango em Paris</td>
+        <td>Bernardo Bertolucci</td>
+        <td>1972</td>
+      </tr>
+      <tr>
+        <td>Up: Altas Aventuras</td>
+        <td>Pete Docter</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>Valente</td>
+        <td>Mark Andrews, Brenda Chapman</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Viagem à Lua</td>
+        <td>Georges Méliès</td>
+        <td>1902</td>
+      </tr>
+      <tr>
+        <td>Viagem de Chihiro, A</td>
+        <td>Hayao Miyazaki</td>
+        <td>2001</td>
+      </tr>
+      <tr>
+        <td>Vingadores - The Avengers, Os</td>
+        <td>Joss Whedon</td>
+        <td>2012</td>
+      </tr>
+      <tr>
+        <td>Vingadores: Era de Ultron</td>
+        <td>Joss Whedon</td>
+        <td>2015</td>
+      </tr>
+      <tr>
+        <td>Vingadores: Guerra Infinita</td>
+        <td>Anthony Russo, Joe Russo</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td>Vingadores: Ultimato</td>
+        <td>Anthony Russo, Joe Russo</td>
+        <td>2019</td>
+      </tr>
+      <tr>
+        <td>Wall-E</td>
+        <td>Andrew Stanton</td>
+        <td>2008</td>
+      </tr>
+      <tr>
+        <td>Watchmen: O Filme</td>
+        <td>Zack Snyder</td>
+        <td>2009</td>
+      </tr>
+      <tr>
+        <td>Wolverine: Imortal</td>
+        <td>James Mangold</td>
+        <td>2013</td>
+      </tr>
+      </tbody>
+    </table>
 
-  <footer>
-    <p>Desenvolvido por: Rafa Santana</p>
-  </footer>
+    <footer>
+      <p>Desenvolvido por: Rafa Santana</p>
+    </footer>
 
-  <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
-</body>
-
+    <script src="https://kit.fontawesome.com/9f46c28665.js" crossorigin="anonymous"></script>
+  </body>
 </html>
 
 
