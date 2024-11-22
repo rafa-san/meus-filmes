@@ -1,15 +1,59 @@
-<h1>Meus Filmes</h1>
+![Badge](https://img.shields.io/badge/PROJETO-PRÓPRIO-FF6F61?style=for-the-badge)&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" />
 
-<p>Aqui a proposta foi bem simples: listar os filmes que tenho em casa (DVDs e Blu-rays) e exibir o conteúdo de três formas diferentes. </p>
+# Meus Filmes
 
-<p>De forma resumida, eu organizei da seguinte maneira este trabalho:</p>
+## 1️⃣ Apresentação
+Este foi meu primeiro projeto próprio como estudante de programação, desenvolvido no início da minha jornada.
 
-<ol>
-  <li>Exemplo 1: filmes exibidos em forma de planilha e em ordem alfabética. Também criei um botão "de volta ao topo", para facilitar na navegação da página. O desafio que superei aqui foi em relação ao design responsivo da tabela em telas muito pequenas.</li>
-  
-  <li>Exemplo 2: filmes exibidos em forma de blocos. Criei três opções de visualização: ordem alfabética, cronológica ou por diretores. Trabalhei com CSS (principalmente flexbox) e JavaScript. O maior desafio foi lidar com as arrays e essa forma dinâmica de expor o conteúdo.</li>
-  
-  <li>Exemplo 3: organizei os filmes em ordem cronológica e trabalhei com imagens e textos. Usei o efeito "hover overlay", que exibe os dados do filme somente quando o cursor do mouse é posicionado sobre sua imagem. Meu maior desafio foi encontrar uma solução para tornar a navegação da página mais agradável. Desenvolvi então um menu lateral que é exibido conforme a navegação do usuário: ao rolar a página para baixo o menu fica oculto e ao rolar para cima ele aparece. A parte do design responsivo deste menu foi de enlouquecer rs..., basta ver a quantidade de commits que tenho com o tema 'design responsivo" &#x1F974.</li>
-</ol>
+Sei que o resultado não ficou perfeito, mas a perfeição não foi o meu objetivo. O que eu queria mesmo era testar minha criatividade, disciplina e capacidade de aprendizado. O projeto me ajudou a enfrentar desafios reais, combinar teoria com prática e, principalmente, persistir até concluir o trabalho. 
 
-<p>No fim, achei que o resultado foi muito positivo. Sei que não ficou perfeito, mas a perfeição nunca foi o meu objetivo. O que eu queria mesmo era o aprendizado e "medir" a minha disciplina. O aprendizado a gente conquista através da prática constante. A teoria é muito importante, mas não dá para ficar só nela. E quando eu escrevi "medir" a minha disciplina, isso tem a ver com iniciar um projeto, enfrentar as dificuldades que surgem, ora com conhecimento, ora com criatividade e, por fim, finalizar o trabalho! &#x1F44A</p>
+Ao longo do desenvolvimento, aprendi que criar algo do zero envolve superar dificuldades com conhecimento e também com soluções criativas — uma experiência que me motivou ainda mais a continuar explorando o universo da programação.
+
+## 2️⃣ Objetivo
+Organizar e exibir os filmes da minha coleção pessoal (DVDs e Blu-rays) de três formas distintas, utilizando HTML, CSS e JavaScript.
+
+### Estrutura do Projeto
+**Exemplo 1: Visualização em Planilha**
+
+- Filmes exibidos como uma tabela em ordem alfabética.
+- Adicionei um botão "voltar ao topo" para facilitar a navegação.
+- **Desafio superado**: adaptar a tabela para telas muito pequenas, garantindo o design responsivo.
+
+**Exemplo 2: Visualização em Blocos**
+
+- Filmes organizados em blocos com três opções de visualização: ordem alfabética, cronológica ou por diretores.
+- **Tecnologias**: CSS (flexbox) e JavaScript.
+- **Desafio superado**: manipular arrays dinamicamente para exibir o conteúdo conforme a seleção.
+
+**Exemplo 3: Visualização com Imagens**
+
+- Filmes apresentados com imagens e textos usando o efeito hover overlay, que exibe informações ao passar o mouse sobre as imagens.
+- Desenvolvi um menu lateral dinâmico: ele aparece ao rolar a página para cima e se oculta ao rolar para baixo.
+- **Desafio superado**: ajustar o design responsivo desse menu — foram muitos commits para acertar os detalhes! 🙃
+
+## 3️⃣ Tecnologias Utilizadas
+
+### Linguagens
+<div style="display:flex;">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+</div>
+
+### Ferramentas
+<div style="display:flex;">
+  <img src="https://img.shields.io/badge/Microsoft%20Paint-F5DF4D?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-404040?style=for-the-badge&logo=github&logoColor=white">
+</div>
+
+## 4️⃣ Créditos
+Agradeço muito às plataformas de ensino abaixo pelos recursos educacionais gratuitos e de qualidade que tornaram este projeto possível.
+- <a href="https://developer.mozilla.org/en-US/" target="_blank">MDN Web Docs 🔗</a>
+- <a href="https://www.w3schools.com/" target="_blank">W3Schools 🔗</a>
+
+Para quem gostou das imagens:
+- <a href="https://www.themoviedb.org/?language=pt-BR" target="_blank">The Movie Database (TMDB) 🔗</a>
+
+## 5️⃣ Licença
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](LICENSE) para mais informações.
+
+---
+
+### <div align="center"><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align:text-bottom;" /> Gostou do projeto? Deixe uma estrelinha <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="25" height="25" style="vertical-align:text-bottom;" /></div>
