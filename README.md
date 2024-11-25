@@ -2,15 +2,15 @@
 
 # Meus Filmes
 
-## 1️⃣ Apresentação
+## 1️⃣ Objetivo
+Organizar e exibir os filmes da minha coleção pessoal (DVDs e Blu-rays) de três formas distintas, utilizando HTML, CSS e JavaScript.
+
+## 2️⃣ Descrição
 Este foi meu primeiro projeto próprio como estudante de programação, desenvolvido no início da minha jornada.
 
-Sei que o resultado não ficou perfeito, mas a perfeição não foi o meu objetivo. O que eu queria mesmo era testar minha criatividade, disciplina e capacidade de aprendizado. O projeto me ajudou a enfrentar desafios reais, combinar teoria com prática e, principalmente, persistir até concluir o trabalho. 
+Sei que o resultado não ficou perfeito, mas a perfeição não foi o meu objetivo aqui. O que eu queria mesmo era testar minha criatividade, disciplina e capacidade de aprendizado. O projeto me ajudou a enfrentar desafios reais, combinar teoria com prática e, principalmente, persistir até concluir o trabalho. 
 
 Ao longo do desenvolvimento, aprendi que criar algo do zero envolve superar dificuldades com conhecimento e também com soluções criativas — uma experiência que me motivou ainda mais a continuar explorando o universo da programação.
-
-## 2️⃣ Objetivo
-Organizar e exibir os filmes da minha coleção pessoal (DVDs e Blu-rays) de três formas distintas, utilizando HTML, CSS e JavaScript.
 
 ### Estrutura do Projeto
 **Exemplo 1: Visualização em Planilha**
@@ -40,7 +40,7 @@ Organizar e exibir os filmes da minha coleção pessoal (DVDs e Blu-rays) de tr�
 
 ### Ferramentas
 <div style="display:flex;">
-  <img src="https://img.shields.io/badge/Microsoft%20Paint-F5DF4D?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-404040?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/Microsoft%20Paint-009B77?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Visual%20Studio%20Code-0078D4?style=for-the-badge&logo=visual-studio-code&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">&nbsp;<img src="https://img.shields.io/badge/GitHub-404040?style=for-the-badge&logo=github&logoColor=white">
 </div>
 
 ## 4️⃣ Créditos
